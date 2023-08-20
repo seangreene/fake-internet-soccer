@@ -14,6 +14,29 @@ body {
 }
 header {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  .subhead {
+    flex: 0 0 100%;
+    h2 {
+      font-family: 'Lora', Times, serif;
+      font-weight: 400;
+      font-style: italic;
+      text-align: center;
+      margin: 0 auto 1rem auto;
+    }
+  }
+}
+
+h1 {
+  font-family: 'Nunito Sans', Arial, sans-serif;
+  font-weight: 1000;
+  font-style: italic;
+  font-size: 2rem;
+  text-align: center;
+  align-self: center;
+  margin-bottom: 0;
+  text-transform: uppercase;
 }
 
 .emoji {
@@ -59,18 +82,8 @@ header {
   }
 }
 
-h1 {
-  font-family: fonts.$font-family-headline;
-  font-weight: fonts.$font-weight-headline;
-  font-size: 26px;
-  text-align: center;
-  align-self: center;
-  margin-bottom: 0;
-  text-transform: uppercase;
-}
-
 p {
-  font-family: fonts.$font-family-body;
+  font-family: 'Lora', Times, serif;
   font-weight: fonts.$font-weight-body;
   &.byline {
     text-transform: uppercase;
