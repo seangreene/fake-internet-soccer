@@ -1,9 +1,9 @@
 slug: baker-example-page-template
 
-site_name: Baker Examples
+site_name: Fake Internet Soccer
 locale: en_US
 
-headline: This is not a headline. Lorem ipsum dolor sit amet consectetur adipisicing
+headline: Fake Internet Soccer XIII
 
 [byline]
 name: This is not a name

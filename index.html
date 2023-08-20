@@ -11,16 +11,9 @@
 {% block content %}
 <article>
   <header class="container">
+    {% include '_layouts/emoji.html' %}
     <h1 class="headline">{{ meta.headline }}</h1>
-    <img src="{% static 'assets/images/baker.jpg' %}" alt="Baker logo" width=250 />
-    <div class="attribution">
-        {% set comma = joiner() %}
-        <p class="byline">
-          By {%- for author in meta.byline -%}
-          {% if not loop.last %}{{ comma() }}{% elif not loop.first %} and{% endif %} <span class="author" itemscope itemtype="http://schema.org/Person"><a itemprop="url" href="{{ author.url }}">{{ author.name }}</a></span>
-          {%- endfor -%}
-        </p>
-    </div>
+    {% include '_layouts/emoji.html' %}
   </header>
   <div class="container">
     {% for p in copy.body %}

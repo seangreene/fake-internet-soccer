@@ -9,57 +9,103 @@
 
 // YOUR CODE
 // Starting writing your stuff below here
+body {
+  background: #057a2637;
+}
+header {
+  display: flex;
+}
+
+.emoji {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 1.4em;
+  margin: 0;
+  text-align: center;
+  position: relative;
+}
+
+.ball {
+  // content: '⚽';
+  animation-name: spin;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  position: absolute;
+  font-size: 2rem;
+  margin-top: 30px;
+  mix-blend-mode: multiply;
+}
+.fire {
+  font-size: 4rem;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .container {
-    max-width: 630px;
-    margin: 30px auto;
-    line-height: 1.4;
-    @media (max-width: 767px) {
-        padding: 0 15px;
-    }
+  max-width: 630px;
+  margin: 30px auto;
+  line-height: 1.4;
+  @media (max-width: 767px) {
+    padding: 0 15px;
+  }
 }
 
 h1 {
-    font-family: fonts.$font-family-headline;
-    font-weight: fonts.$font-weight-headline;
-    font-size: 26px;
+  font-family: fonts.$font-family-headline;
+  font-weight: fonts.$font-weight-headline;
+  font-size: 26px;
+  text-align: center;
+  align-self: center;
+  margin-bottom: 0;
+  text-transform: uppercase;
 }
 
 p {
-    font-family: fonts.$font-family-body;
-    font-weight: fonts.$font-weight-body;
-    &.byline {
-        text-transform: uppercase;
-        font-size: 14px;
-    }
-    &.prose {
-        margin: 18px 0;
-        font-size: 18px;
-    }
+  font-family: fonts.$font-family-body;
+  font-weight: fonts.$font-weight-body;
+  &.byline {
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  &.prose {
+    margin: 18px 0;
+    font-size: 18px;
+  }
 }
 
 .table {
-    font-family: fonts.$font-family-table;
-    border-collapse: collapse;
-    width: 100%;
-    caption {
-        text-align: left;
-        text-transform: uppercase;
-        font-weight: bold;
-        font-size: 18px;
-    }
-    td, th {
-        border: 1px solid #ddd;
-        padding: 8px;
-    }
-    tr:nth-child(even) {
-        background-color: colors.$gray;
-    }
-    tr:hover {
-        background-color: #ddd;
-    }
-    th {
-      text-align: left;
-      background-color: colors.$black;
-      color: white;
-    }
+  font-family: fonts.$font-family-table;
+  border-collapse: collapse;
+  width: 100%;
+  caption {
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  td,
+  th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  tr:nth-child(even) {
+    background-color: colors.$gray;
+  }
+  tr:hover {
+    background-color: #ddd;
+  }
+  th {
+    text-align: left;
+    background-color: colors.$black;
+    color: white;
+  }
 }
