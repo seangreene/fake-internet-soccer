@@ -1,0 +1,44 @@
+.emoji {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 1.4em;
+  margin: 0;
+  text-align: center;
+  position: relative;
+  @media (max-width: 600px) {
+    min-width: 0.8rem;
+  }
+}
+
+.ball {
+  // content: '⚽';
+  animation-name: spin;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  position: absolute;
+  font-size: 2rem;
+  margin-top: 30px;
+  mix-blend-mode: color-burn;
+  filter: contrast(1.5);
+  @media (max-width: 600px) {
+    font-size: 1.5em;
+    margin-top: 20px;
+  }
+}
+.fire {
+  font-size: 4rem;
+  @media (max-width: 600px) {
+    font-size: 3em;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

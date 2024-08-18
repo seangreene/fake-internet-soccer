@@ -7,69 +7,114 @@
 @use './variables/colors';
 @use './variables/fonts';
 
+@use 'emoji.scss';
+
+:root {
+  --green: #5d9634;
+  --altgreen: #5d9634;
+  --darkyellow: #968f35;
+  --accentyellow: #e4fa73;
+}
+
 // YOUR CODE
 // Starting writing your stuff below here
 body {
-  background: #057a2637;
+  // background: #057a2637;
+  background: linear-gradient(
+    to bottom,
+    #5d9634,
+    #5d9634 50%,
+    #538c2b 50%,
+    #538c2b
+  );
+  background-size: 100% 60px;
 }
 header {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  .subhead {
-    flex: 0 0 100%;
-    h2 {
-      font-family: 'Lora', Times, serif;
-      font-weight: 400;
-      font-style: italic;
-      text-align: center;
-      margin: 0 auto 1rem auto;
+  margin-bottom: 2em;
+
+  .pitch {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    border: 2px solid white;
+    border-top: none;
+    padding: 0 15px 15px 15px;
+    aspect-ratio: 44 / 18;
+    position: relative;
+    max-width: 630px;
+    @media (max-width: 600px) {
+      max-width: 90%;
+    }
+
+    .inner {
+      position: absolute;
+      width: 60%;
+      height: 33%;
+      margin-top: 0 !important;
+      border-top: none !important;
+      border: 2px solid white;
+    }
+
+    .penalty-spot {
+      position: absolute;
+      top: 58%;
+      @media (max-width: 480px) {
+        top: 48%;
+      }
+    }
+
+    .semi-circle {
+      position: absolute;
+      bottom: -40px;
+      height: 100px;
+      width: 200px;
+      border-radius: 0 0 150px 150px;
+      border: 2px solid white;
+      margin-top: -2px;
+      clip-path: inset(60px 0 0 0);
     }
   }
-}
 
-h1 {
-  font-family: 'Nunito Sans', Arial, sans-serif;
-  font-weight: 1000;
-  font-style: italic;
-  font-size: 2rem;
-  text-align: center;
-  align-self: center;
-  margin-bottom: 0;
-  text-transform: uppercase;
-}
+  .headline-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 2rem auto 0 auto;
+    @media (max-width: 600px) {
+      margin: 2.4rem auto 0 auto;
+    }
 
-.emoji {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-width: 1.4em;
-  margin: 0;
-  text-align: center;
-  position: relative;
-}
+    h1 {
+      font-family: 'Nunito Sans', Arial, sans-serif;
+      font-weight: 1000;
+      font-style: italic;
+      font-size: 2rem;
+      text-align: center;
+      align-self: center;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+      color: var(--accentyellow);
+      @media (max-width: 600px) {
+        font-size: 1.8rem;
+      }
+    }
 
-.ball {
-  // content: '⚽';
-  animation-name: spin;
-  animation-duration: 5s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  position: absolute;
-  font-size: 2rem;
-  margin-top: 30px;
-  mix-blend-mode: multiply;
-}
-.fire {
-  font-size: 4rem;
-}
-
-@keyframes spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+    .subhead {
+      flex: 0 0 100%;
+      h2 {
+        font-family: 'Lora', Times, serif;
+        font-weight: 400;
+        font-style: italic;
+        text-align: center;
+        margin: 0 auto 1rem auto;
+        font-size: 1.4rem;
+        color: var(--accentyellow);
+        @media (max-width: 600px) {
+          font-size: 1.2rem;
+        }
+      }
+    }
   }
 }
 
@@ -92,6 +137,86 @@ p {
   &.prose {
     margin: 18px 0;
     font-size: 18px;
+  }
+}
+.chart-container {
+  font-family: 'Nunito Sans', Arial, sans-serif;
+
+  h2 {
+    margin-bottom: 8px;
+  }
+
+  .chart {
+    font-weight: 600;
+
+    input[type='number'] {
+      border: 1px solid var(--darkyellow);
+      background: var(--darkyellow);
+      color: var(--accentyellow);
+      font-weight: 600;
+    }
+
+    input[type='range']::-webkit-slider-runnable-track {
+      background: var(--darkyellow);
+    }
+
+    /* For Firefox */
+    input[type='range']::-moz-range-track {
+      background: var(--darkyellow);
+    }
+
+    input[type='range'] {
+      accent-color: var(--accentyellow);
+    }
+
+    input[type='radio']:after {
+      width: 15px;
+      height: 15px;
+      border-radius: 15px;
+      top: -2px;
+      left: -1px;
+      position: relative;
+      background-color: var(--accentyellow);
+      content: '';
+      display: inline-block;
+      visibility: visible;
+      border: 2px solid var(--accentyellow);
+    }
+
+    input[type='radio']:checked:after {
+      width: 15px;
+      height: 15px;
+      border-radius: 15px;
+      top: -2px;
+      left: -1px;
+      position: relative;
+      background-color: var(--darkyellow);
+      content: '';
+      display: inline-block;
+      visibility: visible;
+      border: 2px solid var(--accentyellow);
+    }
+
+    .label {
+      text {
+        font-size: 11px;
+      }
+    }
+    #observablehq-leaguestandings-8c3dbe1c {
+      background: white;
+      border: 2px solid var(--darkyellow);
+      margin: 12px auto;
+      padding: 5px;
+    }
+    svg {
+      // font-size: 0.9em !important;
+
+      .g[aria-label='x-axis'] {
+        text {
+          display: none;
+        }
+      }
+    }
   }
 }
 
