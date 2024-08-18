@@ -141,6 +141,9 @@ p {
 }
 .chart-container {
   font-family: 'Nunito Sans', Arial, sans-serif;
+  margin: 30px auto;
+  line-height: 1.4;
+  max-width: 840px;
 
   h2 {
     margin-bottom: 8px;
@@ -148,6 +151,11 @@ p {
 
   .chart {
     font-weight: 600;
+
+    .chart-settings {
+      max-width: 630px;
+      margin: 0 auto;
+    }
 
     input[type='number'] {
       border: 1px solid var(--darkyellow);

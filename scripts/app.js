@@ -1,6 +1,6 @@
-import { json } from 'd3-fetch';
-import { renderSvelteComponent } from './utils/render.js';
-import BumpChart from './components/BumpChart.svelte';
+// import { json } from 'd3-fetch';
+// import { renderSvelteComponent } from './utils/render.js';
+// import BumpChart from './components/BumpChart.svelte';
 
 async function main() {
   // the first parameter should be the path to the file
