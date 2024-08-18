@@ -1,23 +1,24 @@
 <div class="chart">
     <div class="chart-settings">
-        <div id="observablehq-viewof-selectedGameweek-8c3dbe1c"></div>
-        <div id="observablehq-viewof-minGameweek-8c3dbe1c"></div>
-        <div id="observablehq-viewof-value-8c3dbe1c"></div>
+        <div id="observablehq-viewof-selectedSeason-01d2ea89"></div>
+        <div id="observablehq-viewof-selectedGameweek-01d2ea89"></div>
+        <div id="observablehq-viewof-minGameweek-01d2ea89"></div>
+        <div id="observablehq-viewof-value-01d2ea89"></div>
     </div>
 
 
-  <div id="observablehq-leaguestandings-8c3dbe1c"></div>
-  
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
-  <script type="module">
-  import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
-  import define from "https://api.observablehq.com/d/1a00e6c041e134af.js?v=4";
-  new Runtime().module(define, name => {
-    if (name === "viewof selectedGameweek") return new Inspector(document.querySelector("#observablehq-viewof-selectedGameweek-8c3dbe1c"));
-    if (name === "viewof minGameweek") return new Inspector(document.querySelector("#observablehq-viewof-minGameweek-8c3dbe1c"));
-    if (name === "viewof value") return new Inspector(document.querySelector("#observablehq-viewof-value-8c3dbe1c"));
-    if (name === "leaguestandings") return new Inspector(document.querySelector("#observablehq-leaguestandings-8c3dbe1c"));
-    return ["latest"].includes(name);
-  });
-  </script>      
-</div>
+    <div id="observablehq-leaguestandings-01d2ea89"></div>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
+<script type="module">
+import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
+import define from "https://api.observablehq.com/d/1a00e6c041e134af@434.js?v=4";
+new Runtime().module(define, name => {
+  if (name === "viewof selectedSeason") return new Inspector(document.querySelector("#observablehq-viewof-selectedSeason-01d2ea89"));
+  if (name === "viewof selectedGameweek") return new Inspector(document.querySelector("#observablehq-viewof-selectedGameweek-01d2ea89"));
+  if (name === "viewof minGameweek") return new Inspector(document.querySelector("#observablehq-viewof-minGameweek-01d2ea89"));
+  if (name === "viewof value") return new Inspector(document.querySelector("#observablehq-viewof-value-01d2ea89"));
+  if (name === "leaguestandings") return new Inspector(document.querySelector("#observablehq-leaguestandings-01d2ea89"));
+  return ["filterSeason","latest","maxTeams"].includes(name);
+});
+</script>

@@ -156,6 +156,17 @@ p {
       max-width: 630px;
       margin: 0 auto;
     }
+    select {
+      // -webkit-appearance: none;
+      // -moz-appearance: none;
+      // appearance: none;
+      /* Remove default arrow */
+      border: 1px solid var(--darkyellow);
+      background: var(--darkyellow);
+      color: var(--accentyellow);
+      font-weight: 600;
+      /* Add custom arrow */
+    }
 
     input[type='number'] {
       border: 1px solid var(--darkyellow);
@@ -214,7 +225,7 @@ p {
         font-size: 11px;
       }
     }
-    #observablehq-leaguestandings-8c3dbe1c {
+    #observablehq-leaguestandings-01d2ea89 {
       background: white;
       border: 2px solid var(--darkyellow);
       margin: 12px auto;
