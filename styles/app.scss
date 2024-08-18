@@ -30,7 +30,7 @@ body {
   background-size: 100% 60px;
 }
 header {
-  margin-bottom: 2em;
+  margin-bottom: 5em;
 
   .pitch {
     display: flex;
@@ -228,30 +228,79 @@ p {
   }
 }
 
-.table {
-  font-family: fonts.$font-family-table;
-  border-collapse: collapse;
-  width: 100%;
-  caption {
-    text-align: left;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 18px;
+.outfield {
+  position: relative;
+
+  .center {
+    .circle {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      height: 200px;
+      width: 200px;
+      border-radius: 150px 150px 150px 150px;
+      border: 2px solid white;
+      margin-top: -2px;
+      z-index: -999;
+    }
+    .line {
+      border-top: 2px solid white;
+      width: 100%;
+      margin-bottom: -100px;
+      position: absolute;
+      top: 50%;
+      z-index: -999;
+    }
   }
-  td,
-  th {
-    border: 1px solid #ddd;
-    padding: 8px;
-  }
-  tr:nth-child(even) {
-    background-color: colors.$gray;
-  }
-  tr:hover {
-    background-color: #ddd;
-  }
-  th {
-    text-align: left;
-    background-color: colors.$black;
-    color: white;
+}
+
+footer {
+  margin-top: 5em;
+
+  .pitch {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    border: 2px solid white;
+    border-bottom: none;
+    padding: 15px 15px 0 15px;
+    aspect-ratio: 44 / 18;
+    position: relative;
+    max-width: 630px;
+    @media (max-width: 600px) {
+      max-width: 90%;
+    }
+
+    .inner {
+      position: absolute;
+      bottom: 0;
+      width: 60%;
+      height: 33%;
+      margin-bottom: 0 !important;
+      border-bottom: none !important;
+      border: 2px solid white;
+    }
+
+    .penalty-spot {
+      position: absolute;
+      top: 58%;
+      @media (max-width: 480px) {
+        top: 48%;
+      }
+    }
+
+    .semi-circle {
+      position: absolute;
+      top: -40px;
+      height: 100px;
+      width: 200px;
+      border-radius: 150px 150px 0 0;
+      border: 2px solid white;
+      margin-top: -2px;
+      clip-path: inset(0 0 60px 0);
+    }
   }
 }
