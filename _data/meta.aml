@@ -7,20 +7,16 @@ headline: Fake Internet Soccer XIV
 subheadline: Race to the bottom.
 
 [byline]
-name: This is not a name
-url: https://www.latimes.com/people/nobody
-
-name: This is not a name
-url: https://www.latimes.com/people/nobody
+name: Sean Greene
 []
 
-pub_date: 2099-12-31 23:58:00
+pub_date: 2024-08-18 12:00:00
 update_date:
 
-seo_headline: This is not a search-engine optimized headline
-seo_description: This is not a search-engine optimized description
+seo_headline: Fake Internet Soccer XIV
+seo_description: Bants, brews, ball.
 
-social_headline: This is not a social headline
-social_description: This is not a social description
+social_headline: Fake Internet Soccer XIV
+social_description: Bants, brews, ball.
 
-social_image: assets/images/baker.jpg
+social_image: assets/images/thumb.png
