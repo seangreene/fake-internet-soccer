@@ -225,7 +225,7 @@ p {
         font-size: 11px;
       }
     }
-    #observablehq-leaguestandings-4b994aaf {
+    *[id^='observablehq-leaguestandings-'] {
       background: white;
       border: 2px solid var(--darkyellow);
       margin: 12px auto;
