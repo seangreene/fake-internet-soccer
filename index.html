@@ -16,8 +16,7 @@
 {% endblock scripts %}
 
 {% block content %}
-<article>
-
+<article class="main">
   <header>
     <div class="pitch">
       <div class="inner"></div>
@@ -43,7 +42,18 @@
 
     <div class="container chart-container">
       <div class="chart">
-        {% include '_layouts/chart.html' %}
+        <select id="season-select">
+          {% set latest = meta.seasons | last %}
+          {% for season in meta.seasons %}
+            <option value="{{ season.chart }}" {% if season.chart == latest.chart %}selected{% endif %}>
+              {{ season.name }}
+            </option>
+          {% endfor %}
+        </select>
+
+        <iframe title="Season 14" aria-label="Line chart" id="datawrapper-frame" src="https://datawrapper.dwcdn.net/cbTuU/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="396" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}})}();
+      </script>
+
       </div>
     </div>
   </div>

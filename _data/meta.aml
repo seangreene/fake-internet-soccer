@@ -3,8 +3,8 @@ slug:
 site_name: Fake Internet Soccer
 locale: en_US
 
-headline: Fake Internet Soccer XIV
-subheadline: Race to the bottom.
+headline: Fake Internet Soccer XV
+subheadline: Bants. Brews. Ball.
 
 [byline]
 name: Sean Greene
@@ -21,4 +21,16 @@ social_description: Bants, brews, ball.
 
 social_image: assets/images/thumb.png
 
-observable_id: a658cdc4
+observable_id: b407ecef
+
+[seasons]
+name: Season 12
+chart: 0HuN5
+
+name: Season 13
+chart: Laqax
+
+name: Season 14
+chart: cbTuU
+
+[]

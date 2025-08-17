@@ -14,6 +14,8 @@
   --altgreen: #5d9634;
   --darkyellow: #968f35;
   --accentyellow: #e4fa73;
+  --red: #fa7f73;
+  --blue: #73b0fa;
 }
 
 // YOUR CODE
@@ -29,293 +31,354 @@ body {
   );
   background-size: 100% 60px;
 }
-header {
-  margin-bottom: 5em;
+h1 {
+  font-family: 'Nunito Sans', Arial, sans-serif;
+  font-weight: 1000;
+  font-style: italic;
+  font-size: 2rem;
+  text-align: center;
+  align-self: center;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  color: var(--accentyellow);
+  @media (max-width: 600px) {
+    font-size: 1.8rem;
+  }
+}
 
-  .pitch {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    border: 2px solid white;
-    border-top: none;
-    padding: 0 15px 15px 15px;
-    aspect-ratio: 44 / 18;
-    position: relative;
-    max-width: 630px;
+.subhead {
+  flex: 0 0 100%;
+  h2,
+  p {
+    font-family: 'Lora', Times, serif;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    margin: 0 auto 1rem auto;
+    font-size: 1.4rem;
+    color: var(--accentyellow);
     @media (max-width: 600px) {
-      max-width: 90%;
-    }
-
-    .inner {
-      position: absolute;
-      width: 60%;
-      height: 33%;
-      margin-top: 0 !important;
-      border-top: none !important;
-      border: 2px solid white;
-    }
-
-    .penalty-spot {
-      position: absolute;
-      top: 58%;
-      @media (max-width: 480px) {
-        top: 48%;
-      }
-    }
-
-    .semi-circle {
-      position: absolute;
-      bottom: -40px;
-      height: 100px;
-      width: 200px;
-      border-radius: 0 0 150px 150px;
-      border: 2px solid white;
-      margin-top: -2px;
-      clip-path: inset(60px 0 0 0);
+      font-size: 1.2rem;
     }
   }
+}
+a {
+  color: var(--blue);
+}
+span.red-card {
+  height: 1em;
+  aspect-ratio: 3/4;
+  border-radius: 25%;
+  background-color: var(--red);
+  display: inline-block;
+  vertical-align: middle;
+}
+.main {
+  header {
+    margin-bottom: 5em;
 
-  .headline-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: 2rem auto 0 auto;
-    @media (max-width: 600px) {
-      margin: 2.4rem auto 0 auto;
-    }
-
-    h1 {
-      font-family: 'Nunito Sans', Arial, sans-serif;
-      font-weight: 1000;
-      font-style: italic;
-      font-size: 2rem;
-      text-align: center;
-      align-self: center;
-      margin-bottom: 8px;
-      text-transform: uppercase;
-      color: var(--accentyellow);
+    .pitch {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 0 auto;
+      border: 2px solid white;
+      border-top: none;
+      padding: 0 15px 15px 15px;
+      aspect-ratio: 44 / 18;
+      position: relative;
+      max-width: 630px;
       @media (max-width: 600px) {
-        font-size: 1.8rem;
+        max-width: 90%;
+      }
+
+      .inner {
+        position: absolute;
+        width: 60%;
+        height: 33%;
+        margin-top: 0 !important;
+        border-top: none !important;
+        border: 2px solid white;
+      }
+
+      .penalty-spot {
+        position: absolute;
+        top: 58%;
+        @media (max-width: 480px) {
+          top: 48%;
+        }
+      }
+
+      .semi-circle {
+        position: absolute;
+        bottom: -40px;
+        height: 100px;
+        width: 200px;
+        border-radius: 0 0 150px 150px;
+        border: 2px solid white;
+        margin-top: -2px;
+        clip-path: inset(60px 0 0 0);
       }
     }
 
-    .subhead {
-      flex: 0 0 100%;
-      h2 {
-        font-family: 'Lora', Times, serif;
-        font-weight: 400;
+    .headline-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 2rem auto 0 auto;
+      @media (max-width: 600px) {
+        margin: 2.4rem auto 0 auto;
+      }
+
+      h1 {
+        font-family: 'Nunito Sans', Arial, sans-serif;
+        font-weight: 1000;
         font-style: italic;
+        font-size: 2rem;
         text-align: center;
-        margin: 0 auto 1rem auto;
-        font-size: 1.4rem;
+        align-self: center;
+        margin-bottom: 8px;
+        text-transform: uppercase;
         color: var(--accentyellow);
         @media (max-width: 600px) {
-          font-size: 1.2rem;
+          font-size: 1.8rem;
+        }
+      }
+
+      .subhead {
+        flex: 0 0 100%;
+        h2 {
+          font-family: 'Lora', Times, serif;
+          font-weight: 400;
+          font-style: italic;
+          text-align: center;
+          margin: 0 auto 1rem auto;
+          font-size: 1.4rem;
+          color: var(--accentyellow);
+          @media (max-width: 600px) {
+            font-size: 1.2rem;
+          }
         }
       }
     }
   }
-}
 
-.container {
-  max-width: 630px;
-  margin: 30px auto;
-  line-height: 1.4;
-  @media (max-width: 767px) {
-    padding: 0 15px;
-  }
-}
-
-p {
-  font-family: 'Lora', Times, serif;
-  font-weight: fonts.$font-weight-body;
-  &.byline {
-    text-transform: uppercase;
-    font-size: 14px;
-  }
-  &.prose {
-    margin: 18px 0;
-    font-size: 18px;
-  }
-}
-.chart-container {
-  font-family: 'Nunito Sans', Arial, sans-serif;
-  margin: 30px auto;
-  line-height: 1.4;
-  max-width: 840px;
-
-  h2 {
-    margin-bottom: 8px;
-  }
-
-  .chart {
-    font-weight: 600;
-
-    .chart-settings {
-      max-width: 630px;
-      margin: 0 auto;
-    }
-    select {
-      // -webkit-appearance: none;
-      // -moz-appearance: none;
-      // appearance: none;
-      /* Remove default arrow */
-      border: 1px solid var(--darkyellow);
-      background: var(--darkyellow);
-      color: var(--accentyellow);
-      font-weight: 600;
-      /* Add custom arrow */
-    }
-
-    input[type='number'] {
-      border: 1px solid var(--darkyellow);
-      background: var(--darkyellow);
-      color: var(--accentyellow);
-      font-weight: 600;
-    }
-
-    input[type='range']::-webkit-slider-runnable-track {
-      background: var(--darkyellow);
-    }
-
-    /* For Firefox */
-    input[type='range']::-moz-range-track {
-      background: var(--darkyellow);
-    }
-
-    input[type='range'] {
-      accent-color: var(--accentyellow);
-    }
-
-    input[type='radio'] {
-      -webkit-appearance: none;
-    }
-
-    input[type='radio']:after {
-      width: 15px;
-      height: 15px;
-      border-radius: 15px;
-      top: -2px;
-      left: -1px;
-      position: relative;
-      background-color: var(--accentyellow);
-      content: '';
-      display: inline-block;
-      visibility: visible;
-      border: 2px solid var(--accentyellow);
-    }
-
-    input[type='radio']:checked:after {
-      width: 15px;
-      height: 15px;
-      border-radius: 15px;
-      top: -2px;
-      left: -1px;
-      position: relative;
-      background-color: var(--darkyellow);
-      content: '';
-      display: inline-block;
-      visibility: visible;
-      border: 2px solid var(--accentyellow);
-    }
-
-    .label {
-      text {
-        font-size: 11px;
-      }
-    }
-    *[id^='observablehq-leaguestandings-'] {
-      background: white;
-      border: 2px solid var(--darkyellow);
-      margin: 12px auto;
-      padding: 5px;
-    }
-    svg {
-      // font-size: 0.9em !important;
-
-      .g[aria-label='x-axis'] {
-        text {
-          display: none;
-        }
-      }
-    }
-  }
-}
-
-.outfield {
-  position: relative;
-
-  .center {
-    .circle {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-
-      height: 200px;
-      width: 200px;
-      border-radius: 150px 150px 150px 150px;
-      border: 2px solid white;
-      margin-top: -2px;
-      z-index: -999;
-    }
-    .line {
-      border-top: 2px solid white;
-      width: 100%;
-      margin-bottom: -100px;
-      position: absolute;
-      top: 50%;
-      z-index: -999;
-    }
-  }
-}
-
-footer {
-  margin-top: 5em;
-
-  .pitch {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    border: 2px solid white;
-    border-bottom: none;
-    padding: 15px 15px 0 15px;
-    aspect-ratio: 44 / 18;
-    position: relative;
+  .container {
     max-width: 630px;
-    @media (max-width: 600px) {
-      max-width: 90%;
+    margin: 30px auto;
+    line-height: 1.4;
+    @media (max-width: 767px) {
+      padding: 0 15px;
+    }
+  }
+
+  p {
+    font-family: 'Lora', Times, serif;
+    font-weight: fonts.$font-weight-body;
+    &.byline {
+      text-transform: uppercase;
+      font-size: 14px;
+    }
+    &.prose {
+      margin: 18px 0;
+      font-size: 18px;
+    }
+  }
+  .chart-container {
+    font-family: 'Nunito Sans', Arial, sans-serif;
+    margin: 30px auto;
+    line-height: 1.4;
+    max-width: 840px;
+    background: #fff;
+    padding: 30px;
+    border: 5px outset #e4fa73;
+
+    h2 {
+      margin-bottom: 8px;
     }
 
-    .inner {
-      position: absolute;
-      bottom: 0;
-      width: 60%;
-      height: 33%;
-      margin-bottom: 0 !important;
-      border-bottom: none !important;
-      border: 2px solid white;
-    }
+    .chart {
+      font-weight: 600;
 
-    .penalty-spot {
-      position: absolute;
-      top: 58%;
-      @media (max-width: 480px) {
-        top: 48%;
+      .chart-settings {
+        max-width: 630px;
+        margin: 0 auto;
+      }
+      select {
+        // -webkit-appearance: none;
+        // -moz-appearance: none;
+        // appearance: none;
+        /* Remove default arrow */
+        border: 1px solid var(--darkyellow);
+        background: var(--darkyellow);
+        color: var(--accentyellow);
+        font-weight: 600;
+        /* Add custom arrow */
+      }
+
+      iframe {
+        margin-top: 15px;
+      }
+
+      input[type='number'] {
+        border: 1px solid var(--darkyellow);
+        background: var(--darkyellow);
+        color: var(--accentyellow);
+        font-weight: 600;
+      }
+
+      input[type='range']::-webkit-slider-runnable-track {
+        background: var(--darkyellow);
+      }
+
+      /* For Firefox */
+      input[type='range']::-moz-range-track {
+        background: var(--darkyellow);
+      }
+
+      input[type='range'] {
+        accent-color: var(--accentyellow);
+      }
+
+      input[type='radio'] {
+        -webkit-appearance: none;
+      }
+
+      input[type='radio']:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: var(--accentyellow);
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid var(--accentyellow);
+      }
+
+      input[type='radio']:checked:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: var(--darkyellow);
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid var(--accentyellow);
+      }
+
+      .label {
+        text {
+          font-size: 11px;
+        }
+      }
+      *[id^='observablehq-leaguestandings-'] {
+        background: white;
+        border: 2px solid var(--darkyellow);
+        margin: 12px auto;
+        padding: 5px;
+      }
+      svg {
+        // font-size: 0.9em !important;
+
+        .g[aria-label='x-axis'] {
+          text {
+            display: none;
+          }
+        }
       }
     }
+  }
 
-    .semi-circle {
-      position: absolute;
-      top: -40px;
-      height: 100px;
-      width: 200px;
-      border-radius: 150px 150px 0 0;
-      border: 2px solid white;
-      margin-top: -2px;
-      clip-path: inset(0 0 60px 0);
+  .outfield {
+    position: relative;
+
+    .center {
+      .circle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        height: 200px;
+        width: 200px;
+        border-radius: 150px 150px 150px 150px;
+        border: 2px solid white;
+        margin-top: -2px;
+        z-index: -999;
+      }
+      .line {
+        border-top: 2px solid white;
+        width: 100%;
+        margin-bottom: -100px;
+        position: absolute;
+        top: 50%;
+        z-index: -999;
+      }
     }
+  }
+
+  footer {
+    margin-top: 5em;
+
+    .pitch {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 0 auto;
+      border: 2px solid white;
+      border-bottom: none;
+      padding: 15px 15px 0 15px;
+      aspect-ratio: 44 / 18;
+      position: relative;
+      max-width: 630px;
+      @media (max-width: 600px) {
+        max-width: 90%;
+      }
+
+      .inner {
+        position: absolute;
+        bottom: 0;
+        width: 60%;
+        height: 33%;
+        margin-bottom: 0 !important;
+        border-bottom: none !important;
+        border: 2px solid white;
+      }
+
+      .penalty-spot {
+        position: absolute;
+        top: 58%;
+        @media (max-width: 480px) {
+          top: 48%;
+        }
+      }
+
+      .semi-circle {
+        position: absolute;
+        top: -40px;
+        height: 100px;
+        width: 200px;
+        border-radius: 150px 150px 0 0;
+        border: 2px solid white;
+        margin-top: -2px;
+        clip-path: inset(0 0 60px 0);
+      }
+    }
+  }
+}
+
+figure {
+  &.center {
+    margin: 35px auto;
+    max-width: 630px;
+  }
+  img {
+    width: 100%;
   }
 }
