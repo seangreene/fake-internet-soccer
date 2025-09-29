@@ -10,6 +10,7 @@ altair = "*"
 selenium = "*"
 lxml = "*"
 html5lib = "*"
+fantraxapi = "*"
 
 [dev-packages]
 

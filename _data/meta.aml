@@ -13,10 +13,10 @@ name: Sean Greene
 pub_date: 2024-08-18 12:00:00
 update_date:
 
-seo_headline: Fake Internet Soccer XIV
+seo_headline: Fake Internet Soccer XV
 seo_description: Bants, brews, ball.
 
-social_headline: Fake Internet Soccer XIV
+social_headline: Fake Internet Soccer XV
 social_description: Bants, brews, ball.
 
 social_image: assets/images/thumb.png
@@ -32,5 +32,8 @@ chart: Laqax
 
 name: Season 14
 chart: cbTuU
+
+name: Season 15
+chart: b7v86
 
 []
