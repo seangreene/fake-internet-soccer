@@ -1,0 +1,101 @@
+winner,loser,wins,x,y
+Benford FC,Benford FC,,0,0
+Benford FC,Cheasle FC,0,1,0
+Benford FC,FPL 5: AutoPick Strikes Back,2,2,0
+Benford FC,GAK-PO-TAY-TOES,1,3,0
+Benford FC,Magpies United,1,4,0
+Benford FC,Mattchester United,0,5,0
+Benford FC,Morning Timber,1,6,0
+Benford FC,Seanhampton,2,7,0
+Benford FC,Thottenham Hotsluts,1,8,0
+Benford FC,Walton Goggonzola,1,9,0
+Cheasle FC,Benford FC,3,0,1
+Cheasle FC,Cheasle FC,,1,1
+Cheasle FC,FPL 5: AutoPick Strikes Back,2,2,1
+Cheasle FC,GAK-PO-TAY-TOES,1,3,1
+Cheasle FC,Magpies United,0,4,1
+Cheasle FC,Mattchester United,1,5,1
+Cheasle FC,Morning Timber,1,6,1
+Cheasle FC,Seanhampton,2,7,1
+Cheasle FC,Thottenham Hotsluts,1,8,1
+Cheasle FC,Walton Goggonzola,2,9,1
+FPL 5: AutoPick Strikes Back,Benford FC,0,0,2
+FPL 5: AutoPick Strikes Back,Cheasle FC,1,1,2
+FPL 5: AutoPick Strikes Back,FPL 5: AutoPick Strikes Back,,2,2
+FPL 5: AutoPick Strikes Back,GAK-PO-TAY-TOES,1,3,2
+FPL 5: AutoPick Strikes Back,Magpies United,0,4,2
+FPL 5: AutoPick Strikes Back,Mattchester United,0,5,2
+FPL 5: AutoPick Strikes Back,Morning Timber,0,6,2
+FPL 5: AutoPick Strikes Back,Seanhampton,2,7,2
+FPL 5: AutoPick Strikes Back,Thottenham Hotsluts,0,8,2
+FPL 5: AutoPick Strikes Back,Walton Goggonzola,2,9,2
+GAK-PO-TAY-TOES,Benford FC,1,0,3
+GAK-PO-TAY-TOES,Cheasle FC,1,1,3
+GAK-PO-TAY-TOES,FPL 5: AutoPick Strikes Back,2,2,3
+GAK-PO-TAY-TOES,GAK-PO-TAY-TOES,,3,3
+GAK-PO-TAY-TOES,Magpies United,2,4,3
+GAK-PO-TAY-TOES,Mattchester United,1,5,3
+GAK-PO-TAY-TOES,Morning Timber,1,6,3
+GAK-PO-TAY-TOES,Seanhampton,2,7,3
+GAK-PO-TAY-TOES,Thottenham Hotsluts,2,8,3
+GAK-PO-TAY-TOES,Walton Goggonzola,2,9,3
+Magpies United,Benford FC,1,0,4
+Magpies United,Cheasle FC,2,1,4
+Magpies United,FPL 5: AutoPick Strikes Back,3,2,4
+Magpies United,GAK-PO-TAY-TOES,0,3,4
+Magpies United,Magpies United,,4,4
+Magpies United,Mattchester United,2,5,4
+Magpies United,Morning Timber,2,6,4
+Magpies United,Seanhampton,0,7,4
+Magpies United,Thottenham Hotsluts,2,8,4
+Magpies United,Walton Goggonzola,2,9,4
+Mattchester United,Benford FC,2,0,5
+Mattchester United,Cheasle FC,1,1,5
+Mattchester United,FPL 5: AutoPick Strikes Back,2,2,5
+Mattchester United,GAK-PO-TAY-TOES,1,3,5
+Mattchester United,Magpies United,1,4,5
+Mattchester United,Mattchester United,,5,5
+Mattchester United,Morning Timber,3,6,5
+Mattchester United,Seanhampton,2,7,5
+Mattchester United,Thottenham Hotsluts,2,8,5
+Mattchester United,Walton Goggonzola,3,9,5
+Morning Timber,Benford FC,1,0,6
+Morning Timber,Cheasle FC,1,1,6
+Morning Timber,FPL 5: AutoPick Strikes Back,2,2,6
+Morning Timber,GAK-PO-TAY-TOES,1,3,6
+Morning Timber,Magpies United,0,4,6
+Morning Timber,Mattchester United,0,5,6
+Morning Timber,Morning Timber,,6,6
+Morning Timber,Seanhampton,0,7,6
+Morning Timber,Thottenham Hotsluts,2,8,6
+Morning Timber,Walton Goggonzola,2,9,6
+Seanhampton,Benford FC,1,0,7
+Seanhampton,Cheasle FC,1,1,7
+Seanhampton,FPL 5: AutoPick Strikes Back,0,2,7
+Seanhampton,GAK-PO-TAY-TOES,0,3,7
+Seanhampton,Magpies United,2,4,7
+Seanhampton,Mattchester United,0,5,7
+Seanhampton,Morning Timber,2,6,7
+Seanhampton,Seanhampton,,7,7
+Seanhampton,Thottenham Hotsluts,2,8,7
+Seanhampton,Walton Goggonzola,1,9,7
+Thottenham Hotsluts,Benford FC,1,0,8
+Thottenham Hotsluts,Cheasle FC,1,1,8
+Thottenham Hotsluts,FPL 5: AutoPick Strikes Back,1,2,8
+Thottenham Hotsluts,GAK-PO-TAY-TOES,1,3,8
+Thottenham Hotsluts,Magpies United,1,4,8
+Thottenham Hotsluts,Mattchester United,0,5,8
+Thottenham Hotsluts,Morning Timber,1,6,8
+Thottenham Hotsluts,Seanhampton,0,7,8
+Thottenham Hotsluts,Thottenham Hotsluts,,8,8
+Thottenham Hotsluts,Walton Goggonzola,1,9,8
+Walton Goggonzola,Benford FC,1,0,9
+Walton Goggonzola,Cheasle FC,0,1,9
+Walton Goggonzola,FPL 5: AutoPick Strikes Back,0,2,9
+Walton Goggonzola,GAK-PO-TAY-TOES,0,3,9
+Walton Goggonzola,Magpies United,0,4,9
+Walton Goggonzola,Mattchester United,0,5,9
+Walton Goggonzola,Morning Timber,1,6,9
+Walton Goggonzola,Seanhampton,2,7,9
+Walton Goggonzola,Thottenham Hotsluts,1,8,9
+Walton Goggonzola,Walton Goggonzola,,9,9

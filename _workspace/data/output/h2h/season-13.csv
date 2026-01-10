@@ -1,0 +1,101 @@
+winner,loser,wins,x,y
+Benford FC,Benford FC,,0,0
+Benford FC,Cheasle FC,1,1,0
+Benford FC,Chicken ASzobo,0,2,0
+Benford FC,Cursed BrunOnana,2,3,0
+Benford FC,HappyHaalandays,1,4,0
+Benford FC,RATABE,1,5,0
+Benford FC,Seanhampton FC,3,6,0
+Benford FC,The ThiaGOAT,2,7,0
+Benford FC,Thottenham Hotsluts,1,8,0
+Benford FC,Zenright,1,9,0
+Cheasle FC,Benford FC,3,0,1
+Cheasle FC,Cheasle FC,,1,1
+Cheasle FC,Chicken ASzobo,2,2,1
+Cheasle FC,Cursed BrunOnana,1,3,1
+Cheasle FC,HappyHaalandays,3,4,1
+Cheasle FC,RATABE,3,5,1
+Cheasle FC,Seanhampton FC,2,6,1
+Cheasle FC,The ThiaGOAT,4,7,1
+Cheasle FC,Thottenham Hotsluts,1,8,1
+Cheasle FC,Zenright,3,9,1
+Chicken ASzobo,Benford FC,4,0,2
+Chicken ASzobo,Cheasle FC,2,1,2
+Chicken ASzobo,Chicken ASzobo,,2,2
+Chicken ASzobo,Cursed BrunOnana,3,3,2
+Chicken ASzobo,HappyHaalandays,3,4,2
+Chicken ASzobo,RATABE,3,5,2
+Chicken ASzobo,Seanhampton FC,1,6,2
+Chicken ASzobo,The ThiaGOAT,1,7,2
+Chicken ASzobo,Thottenham Hotsluts,3,8,2
+Chicken ASzobo,Zenright,2,9,2
+Cursed BrunOnana,Benford FC,2,0,3
+Cursed BrunOnana,Cheasle FC,3,1,3
+Cursed BrunOnana,Chicken ASzobo,1,2,3
+Cursed BrunOnana,Cursed BrunOnana,,3,3
+Cursed BrunOnana,HappyHaalandays,1,4,3
+Cursed BrunOnana,RATABE,4,5,3
+Cursed BrunOnana,Seanhampton FC,3,6,3
+Cursed BrunOnana,The ThiaGOAT,1,7,3
+Cursed BrunOnana,Thottenham Hotsluts,3,8,3
+Cursed BrunOnana,Zenright,3,9,3
+HappyHaalandays,Benford FC,3,0,4
+HappyHaalandays,Cheasle FC,1,1,4
+HappyHaalandays,Chicken ASzobo,1,2,4
+HappyHaalandays,Cursed BrunOnana,3,3,4
+HappyHaalandays,HappyHaalandays,,4,4
+HappyHaalandays,RATABE,3,5,4
+HappyHaalandays,Seanhampton FC,3,6,4
+HappyHaalandays,The ThiaGOAT,3,7,4
+HappyHaalandays,Thottenham Hotsluts,1,8,4
+HappyHaalandays,Zenright,2,9,4
+RATABE,Benford FC,3,0,5
+RATABE,Cheasle FC,1,1,5
+RATABE,Chicken ASzobo,1,2,5
+RATABE,Cursed BrunOnana,0,3,5
+RATABE,HappyHaalandays,1,4,5
+RATABE,RATABE,,5,5
+RATABE,Seanhampton FC,1,6,5
+RATABE,The ThiaGOAT,3,7,5
+RATABE,Thottenham Hotsluts,3,8,5
+RATABE,Zenright,2,9,5
+Seanhampton FC,Benford FC,1,0,6
+Seanhampton FC,Cheasle FC,2,1,6
+Seanhampton FC,Chicken ASzobo,3,2,6
+Seanhampton FC,Cursed BrunOnana,1,3,6
+Seanhampton FC,HappyHaalandays,1,4,6
+Seanhampton FC,RATABE,3,5,6
+Seanhampton FC,Seanhampton FC,,6,6
+Seanhampton FC,The ThiaGOAT,3,7,6
+Seanhampton FC,Thottenham Hotsluts,1,8,6
+Seanhampton FC,Zenright,2,9,6
+The ThiaGOAT,Benford FC,2,0,7
+The ThiaGOAT,Cheasle FC,0,1,7
+The ThiaGOAT,Chicken ASzobo,3,2,7
+The ThiaGOAT,Cursed BrunOnana,3,3,7
+The ThiaGOAT,HappyHaalandays,1,4,7
+The ThiaGOAT,RATABE,1,5,7
+The ThiaGOAT,Seanhampton FC,1,6,7
+The ThiaGOAT,The ThiaGOAT,,7,7
+The ThiaGOAT,Thottenham Hotsluts,2,8,7
+The ThiaGOAT,Zenright,2,9,7
+Thottenham Hotsluts,Benford FC,3,0,8
+Thottenham Hotsluts,Cheasle FC,3,1,8
+Thottenham Hotsluts,Chicken ASzobo,1,2,8
+Thottenham Hotsluts,Cursed BrunOnana,1,3,8
+Thottenham Hotsluts,HappyHaalandays,3,4,8
+Thottenham Hotsluts,RATABE,1,5,8
+Thottenham Hotsluts,Seanhampton FC,2,6,8
+Thottenham Hotsluts,The ThiaGOAT,2,7,8
+Thottenham Hotsluts,Thottenham Hotsluts,,8,8
+Thottenham Hotsluts,Zenright,1,9,8
+Zenright,Benford FC,3,0,9
+Zenright,Cheasle FC,1,1,9
+Zenright,Chicken ASzobo,2,2,9
+Zenright,Cursed BrunOnana,1,3,9
+Zenright,HappyHaalandays,2,4,9
+Zenright,RATABE,2,5,9
+Zenright,Seanhampton FC,2,6,9
+Zenright,The ThiaGOAT,2,7,9
+Zenright,Thottenham Hotsluts,3,8,9
+Zenright,Zenright,,9,9

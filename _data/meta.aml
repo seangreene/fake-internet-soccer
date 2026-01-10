@@ -21,8 +21,6 @@ social_description: Bants, brews, ball.
 
 social_image: assets/images/thumb.png
 
-observable_id: b407ecef
-
 [seasons]
 name: Season 12
 chart: 0HuN5
@@ -36,4 +34,10 @@ chart: cbTuU
 name: Season 15
 chart: b7v86
 
+[]
+
+[h2h]
+
+name: Season 15
+chart: 4Qpyc
 []

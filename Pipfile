@@ -9,6 +9,7 @@ pandas = "*"
 selenium = "*"
 altair = "*"
 lxml = "*"
+datawrapper = "*"
 
 [dev-packages]
 

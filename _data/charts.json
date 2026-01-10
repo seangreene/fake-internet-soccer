@@ -1,0 +1,42 @@
+{
+  "12": {
+    "standings": {
+      "chart_id": "0HuN5",
+      "version": 8
+    },
+    "h2h": {
+      "chart_id": "uO64h",
+      "version": 8
+    }
+  },
+  "13": {
+    "standings": {
+      "chart_id": "Laqax",
+      "version": 8
+    },
+    "h2h": {
+      "chart_id": "J4c3d",
+      "version": 1
+    }
+  },
+  "14": {
+    "standings": {
+      "chart_id": "cbTuU",
+      "version": 9
+    },
+    "h2h": {
+      "chart_id": "xJAdB",
+      "version": 1
+    }
+  },
+  "15": {
+    "standings": {
+      "chart_id": "b7v86",
+      "version": 19
+    },
+    "h2h": {
+      "chart_id": "4Qpyc",
+      "version": 15
+    }
+  }
+}

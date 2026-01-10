@@ -1,0 +1,101 @@
+winner,loser,wins,x,y
+Benford FC,Benford FC,,0,0
+Benford FC,Cheasle FC,2,1,0
+Benford FC,Concept of a FPLan,2,2,0
+Benford FC,HappyHaalandays,1,3,0
+Benford FC,Magpies United,3,4,0
+Benford FC,New Zac on the Block,2,5,0
+Benford FC,RATABE,1,6,0
+Benford FC,Seanhampton,2,7,0
+Benford FC,TAAco Bell,0,8,0
+Benford FC,Thottenham Hotsluts,3,9,0
+Cheasle FC,Benford FC,2,0,1
+Cheasle FC,Cheasle FC,,1,1
+Cheasle FC,Concept of a FPLan,3,2,1
+Cheasle FC,HappyHaalandays,2,3,1
+Cheasle FC,Magpies United,3,4,1
+Cheasle FC,New Zac on the Block,2,5,1
+Cheasle FC,RATABE,4,6,1
+Cheasle FC,Seanhampton,4,7,1
+Cheasle FC,TAAco Bell,1,8,1
+Cheasle FC,Thottenham Hotsluts,4,9,1
+Concept of a FPLan,Benford FC,2,0,2
+Concept of a FPLan,Cheasle FC,1,1,2
+Concept of a FPLan,Concept of a FPLan,,2,2
+Concept of a FPLan,HappyHaalandays,2,3,2
+Concept of a FPLan,Magpies United,2,4,2
+Concept of a FPLan,New Zac on the Block,1,5,2
+Concept of a FPLan,RATABE,2,6,2
+Concept of a FPLan,Seanhampton,2,7,2
+Concept of a FPLan,TAAco Bell,2,8,2
+Concept of a FPLan,Thottenham Hotsluts,2,9,2
+HappyHaalandays,Benford FC,3,0,3
+HappyHaalandays,Cheasle FC,2,1,3
+HappyHaalandays,Concept of a FPLan,2,2,3
+HappyHaalandays,HappyHaalandays,,3,3
+HappyHaalandays,Magpies United,4,4,3
+HappyHaalandays,New Zac on the Block,2,5,3
+HappyHaalandays,RATABE,3,6,3
+HappyHaalandays,Seanhampton,2,7,3
+HappyHaalandays,TAAco Bell,2,8,3
+HappyHaalandays,Thottenham Hotsluts,0,9,3
+Magpies United,Benford FC,1,0,4
+Magpies United,Cheasle FC,1,1,4
+Magpies United,Concept of a FPLan,2,2,4
+Magpies United,HappyHaalandays,0,3,4
+Magpies United,Magpies United,,4,4
+Magpies United,New Zac on the Block,1,5,4
+Magpies United,RATABE,2,6,4
+Magpies United,Seanhampton,1,7,4
+Magpies United,TAAco Bell,0,8,4
+Magpies United,Thottenham Hotsluts,0,9,4
+New Zac on the Block,Benford FC,2,0,5
+New Zac on the Block,Cheasle FC,2,1,5
+New Zac on the Block,Concept of a FPLan,3,2,5
+New Zac on the Block,HappyHaalandays,2,3,5
+New Zac on the Block,Magpies United,3,4,5
+New Zac on the Block,New Zac on the Block,,5,5
+New Zac on the Block,RATABE,2,6,5
+New Zac on the Block,Seanhampton,4,7,5
+New Zac on the Block,TAAco Bell,1,8,5
+New Zac on the Block,Thottenham Hotsluts,2,9,5
+RATABE,Benford FC,3,0,6
+RATABE,Cheasle FC,0,1,6
+RATABE,Concept of a FPLan,2,2,6
+RATABE,HappyHaalandays,1,3,6
+RATABE,Magpies United,2,4,6
+RATABE,New Zac on the Block,2,5,6
+RATABE,RATABE,,6,6
+RATABE,Seanhampton,3,7,6
+RATABE,TAAco Bell,2,8,6
+RATABE,Thottenham Hotsluts,3,9,6
+Seanhampton,Benford FC,2,0,7
+Seanhampton,Cheasle FC,0,1,7
+Seanhampton,Concept of a FPLan,2,2,7
+Seanhampton,HappyHaalandays,2,3,7
+Seanhampton,Magpies United,3,4,7
+Seanhampton,New Zac on the Block,0,5,7
+Seanhampton,RATABE,1,6,7
+Seanhampton,Seanhampton,,7,7
+Seanhampton,TAAco Bell,1,8,7
+Seanhampton,Thottenham Hotsluts,2,9,7
+TAAco Bell,Benford FC,4,0,8
+TAAco Bell,Cheasle FC,3,1,8
+TAAco Bell,Concept of a FPLan,2,2,8
+TAAco Bell,HappyHaalandays,2,3,8
+TAAco Bell,Magpies United,4,4,8
+TAAco Bell,New Zac on the Block,3,5,8
+TAAco Bell,RATABE,2,6,8
+TAAco Bell,Seanhampton,3,7,8
+TAAco Bell,TAAco Bell,,8,8
+TAAco Bell,Thottenham Hotsluts,3,9,8
+Thottenham Hotsluts,Benford FC,1,0,9
+Thottenham Hotsluts,Cheasle FC,0,1,9
+Thottenham Hotsluts,Concept of a FPLan,2,2,9
+Thottenham Hotsluts,HappyHaalandays,4,3,9
+Thottenham Hotsluts,Magpies United,4,4,9
+Thottenham Hotsluts,New Zac on the Block,2,5,9
+Thottenham Hotsluts,RATABE,1,6,9
+Thottenham Hotsluts,Seanhampton,2,7,9
+Thottenham Hotsluts,TAAco Bell,1,8,9
+Thottenham Hotsluts,Thottenham Hotsluts,,9,9

@@ -44,16 +44,17 @@
     <div class="container chart-container">
       <div class="chart">
         <select id="season-select">
-          {% set latest = meta.seasons | last %}
-          {% for season in meta.seasons %}
-            <option value="{{ season.chart }}" {% if season.chart == latest.chart %}selected{% endif %}>
-              {{ season.name }}
+          {% for season, chartsInSeason in charts %}
+            <option value="{{ season }}" {% if loop.last %}selected{% endif %}>
+              Season {{ season }}
             </option>
           {% endfor %}
         </select>
-
         <div id="bump-chart" class="datawrapper-embed" data-chart-id="b7v86"></div>
-
+      </div>
+      <div class="spacer"></div>
+      <div class="chart">
+        <div id="h2h-chart" class="datawrapper-embed" data-chart-id="4Qpyc"></div>
       </div>
     </div>
   </div>
@@ -67,3 +68,9 @@
   </footer>
 </article>
 {% endblock content %}
+
+{% block extra_scripts %}
+
+{{charts|jsonScript('chartsMetadata')}}
+
+{% endblock %}

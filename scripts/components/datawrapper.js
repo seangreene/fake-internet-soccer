@@ -1,6 +1,6 @@
 // datawrapper render function
-export let renderDatawrapper = function (el, chartId) {
-  let chartDataUrl = `https://datawrapper.dwcdn.net/${chartId}/embed.json`;
+export let renderDatawrapper = function (el, chartId, version) {
+  let chartDataUrl = `https://datawrapper.dwcdn.net/${chartId}/${version}/embed.json`;
   const target = document.createElement('div');
   el.innerHTML = '';
   el.appendChild(target);
