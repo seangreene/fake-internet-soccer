@@ -1,231 +1,231 @@
 W,D,L,Points,Win%,WW,FPtsF,FPtsA,Streak,team,rank,gw
 1,0,0,3,1.0,4,193.0,169.5,1 (W),Benford FC,1,1
-1,0,0,3,1.0,1,178.0,103.0,1 (W),Morning Timber,2,1
+1,0,0,3,1.0,3,178.0,103.0,1 (W),Morning Timber,2,1
 1,0,0,3,1.0,5,155.0,142.5,1 (W),Magpies United,3,1
-1,0,0,3,1.0,9,136.5,116.5,1 (W),GAK-PO-TAY-TOES,4,1
-1,0,0,3,1.0,7,119.5,99.0,1 (W),Cheasle FC,5,1
-0,0,1,0,0.0,8,169.5,193.0,1 (L),Seanhampton,6,1
-0,0,1,0,0.0,10,142.5,155.0,1 (L),Mattchester United,7,1
-0,0,1,0,0.0,6,116.5,136.5,1 (L),Thottenham Hotsluts,8,1
-0,0,1,0,0.0,3,103.0,178.0,1 (L),Walton Goggonzola,9,1
-0,0,1,0,0.0,2,99.0,119.5,1 (L),FPL 5: AutoPick Strikes Back,10,1
-2,0,0,6,1.0,9,334.0,224.0,2 (W),GAK-PO-TAY-TOES,1,2
-2,0,0,6,1.0,7,271.0,209.5,2 (W),Cheasle FC,2,2
-1,0,1,3,0.5,1,308.5,244.0,1 (L),Morning Timber,3,2
+1,0,0,3,1.0,10,136.5,116.5,1 (W),GAK-PO-TAY-TOES,4,1
+1,0,0,3,1.0,8,119.5,99.0,1 (W),Cheasle FC,5,1
+0,0,1,0,0.0,7,169.5,193.0,1 (L),Seanhampton,6,1
+0,0,1,0,0.0,9,142.5,155.0,1 (L),Mattchester United,7,1
+0,0,1,0,0.0,2,116.5,136.5,1 (L),Thottenham Hotsluts,8,1
+0,0,1,0,0.0,6,103.0,178.0,1 (L),Walton Goggonzola,9,1
+0,0,1,0,0.0,1,99.0,119.5,1 (L),FPL 5: AutoPick Strikes Back,10,1
+2,0,0,6,1.0,10,334.0,224.0,2 (W),GAK-PO-TAY-TOES,1,2
+2,0,0,6,1.0,8,271.0,209.5,2 (W),Cheasle FC,2,2
+1,0,1,3,0.5,3,308.5,244.0,1 (L),Morning Timber,3,2
 1,0,1,3,0.5,4,303.5,321.0,1 (L),Benford FC,4,2
-1,0,1,3,0.5,10,283.5,285.5,1 (W),Mattchester United,5,2
-1,0,1,3,0.5,8,280.5,293.5,1 (W),Seanhampton,6,2
+1,0,1,3,0.5,9,283.5,285.5,1 (W),Mattchester United,5,2
+1,0,1,3,0.5,7,280.5,293.5,1 (W),Seanhampton,6,2
 1,0,1,3,0.5,5,279.5,283.0,1 (L),Magpies United,7,2
-1,0,1,3,0.5,6,257.0,261.0,1 (W),Thottenham Hotsluts,8,2
-0,0,2,0,0.0,2,206.5,317.0,2 (L),FPL 5: AutoPick Strikes Back,9,2
-0,0,2,0,0.0,3,203.5,289.0,2 (L),Walton Goggonzola,10,2
-3,0,0,9,1.0,7,397.0,307.0,3 (W),Cheasle FC,1,3
-2,0,1,6,0.667,9,466.0,366.0,1 (L),GAK-PO-TAY-TOES,2,3
-2,0,1,6,0.667,1,448.0,350.5,1 (W),Morning Timber,3,3
+1,0,1,3,0.5,2,257.0,261.0,1 (W),Thottenham Hotsluts,8,2
+0,0,2,0,0.0,1,206.5,317.0,2 (L),FPL 5: AutoPick Strikes Back,9,2
+0,0,2,0,0.0,6,203.5,289.0,2 (L),Walton Goggonzola,10,2
+3,0,0,9,1.0,8,397.0,307.0,3 (W),Cheasle FC,1,3
+2,0,1,6,0.667,10,466.0,366.0,1 (L),GAK-PO-TAY-TOES,2,3
+2,0,1,6,0.667,3,448.0,350.5,1 (W),Morning Timber,3,3
 2,0,1,6,0.667,4,445.5,453.0,1 (W),Benford FC,4,3
-2,0,1,6,0.667,10,431.5,396.0,2 (W),Mattchester United,5,3
+2,0,1,6,0.667,9,431.5,396.0,2 (W),Mattchester United,5,3
 2,0,1,6,0.667,5,397.0,375.0,1 (W),Magpies United,6,3
-1,0,2,3,0.333,8,378.0,419.5,1 (L),Seanhampton,7,3
-1,0,2,3,0.333,6,363.5,400.5,1 (L),Thottenham Hotsluts,8,3
-0,0,3,0,0.0,3,314.0,437.0,3 (L),Walton Goggonzola,9,3
-0,0,3,0,0.0,2,298.5,434.5,3 (L),FPL 5: AutoPick Strikes Back,10,3
-4,0,0,12,1.0,7,567.0,405.5,4 (W),Cheasle FC,1,4
-3,0,1,9,0.75,9,617.5,491.5,1 (W),GAK-PO-TAY-TOES,2,4
+1,0,2,3,0.333,7,378.0,419.5,1 (L),Seanhampton,7,3
+1,0,2,3,0.333,2,363.5,400.5,1 (L),Thottenham Hotsluts,8,3
+0,0,3,0,0.0,6,314.0,437.0,3 (L),Walton Goggonzola,9,3
+0,0,3,0,0.0,1,298.5,434.5,3 (L),FPL 5: AutoPick Strikes Back,10,3
+4,0,0,12,1.0,8,567.0,405.5,4 (W),Cheasle FC,1,4
+3,0,1,9,0.75,10,617.5,491.5,1 (W),GAK-PO-TAY-TOES,2,4
 3,0,1,9,0.75,4,616.5,600.5,2 (W),Benford FC,3,4
-3,0,1,9,0.75,1,593.0,470.5,2 (W),Morning Timber,4,4
-3,0,1,9,0.75,10,585.5,532.5,3 (W),Mattchester United,5,4
+3,0,1,9,0.75,3,593.0,470.5,2 (W),Morning Timber,4,4
+3,0,1,9,0.75,9,585.5,532.5,3 (W),Mattchester United,5,4
 2,0,2,6,0.5,5,544.5,546.0,1 (L),Magpies United,6,4
-1,0,3,3,0.25,8,503.5,571.0,2 (L),Seanhampton,7,4
-1,0,3,3,0.25,6,500.0,554.5,2 (L),Thottenham Hotsluts,8,4
-0,0,4,0,0.0,2,418.5,579.5,4 (L),FPL 5: AutoPick Strikes Back,9,4
-0,0,4,0,0.0,3,412.5,607.0,4 (L),Walton Goggonzola,10,4
-5,0,0,15,1.0,7,673.0,508.5,5 (W),Cheasle FC,1,5
-4,0,1,12,0.8,10,724.5,626.5,4 (W),Mattchester United,2,5
-4,0,1,12,0.8,1,715.0,590.0,3 (W),Morning Timber,3,5
+1,0,3,3,0.25,7,503.5,571.0,2 (L),Seanhampton,7,4
+1,0,3,3,0.25,2,500.0,554.5,2 (L),Thottenham Hotsluts,8,4
+0,0,4,0,0.0,1,418.5,579.5,4 (L),FPL 5: AutoPick Strikes Back,9,4
+0,0,4,0,0.0,6,412.5,607.0,4 (L),Walton Goggonzola,10,4
+5,0,0,15,1.0,8,673.0,508.5,5 (W),Cheasle FC,1,5
+4,0,1,12,0.8,9,724.5,626.5,4 (W),Mattchester United,2,5
+4,0,1,12,0.8,3,715.0,590.0,3 (W),Morning Timber,3,5
 3,0,2,9,0.6,4,736.0,722.5,1 (L),Benford FC,4,5
-3,0,2,9,0.6,9,720.5,597.5,1 (L),GAK-PO-TAY-TOES,5,5
+3,0,2,9,0.6,10,720.5,597.5,1 (L),GAK-PO-TAY-TOES,5,5
 2,0,3,6,0.4,5,663.5,697.5,2 (L),Magpies United,6,5
-2,0,3,6,0.4,8,655.0,690.0,1 (W),Seanhampton,7,5
-2,0,3,6,0.4,6,646.0,681.0,1 (W),Thottenham Hotsluts,8,5
-0,0,5,0,0.0,3,539.0,753.0,5 (L),Walton Goggonzola,9,5
-0,0,5,0,0.0,2,512.5,718.5,5 (L),FPL 5: AutoPick Strikes Back,10,5
-5,0,1,15,0.833,10,836.0,727.5,5 (W),Mattchester United,1,6
-5,0,1,15,0.833,7,821.0,671.0,1 (L),Cheasle FC,2,6
-4,0,2,12,0.667,9,870.0,734.0,1 (W),GAK-PO-TAY-TOES,3,6
-4,0,2,12,0.667,1,817.0,730.5,1 (L),Morning Timber,4,6
+2,0,3,6,0.4,7,655.0,690.0,1 (W),Seanhampton,7,5
+2,0,3,6,0.4,2,646.0,681.0,1 (W),Thottenham Hotsluts,8,5
+0,0,5,0,0.0,6,539.0,753.0,5 (L),Walton Goggonzola,9,5
+0,0,5,0,0.0,1,512.5,718.5,5 (L),FPL 5: AutoPick Strikes Back,10,5
+5,0,1,15,0.833,9,836.0,727.5,5 (W),Mattchester United,1,6
+5,0,1,15,0.833,8,821.0,671.0,1 (L),Cheasle FC,2,6
+4,0,2,12,0.667,10,870.0,734.0,1 (W),GAK-PO-TAY-TOES,3,6
+4,0,2,12,0.667,3,817.0,730.5,1 (L),Morning Timber,4,6
 3,0,3,9,0.5,4,837.0,834.0,2 (L),Benford FC,5,6
 3,0,3,9,0.5,5,826.0,845.5,1 (W),Magpies United,6,6
-3,0,3,9,0.5,8,795.5,792.0,2 (W),Seanhampton,7,6
-2,1,3,7,0.417,6,752.5,787.5,2 (Und),Thottenham Hotsluts,8,6
-0,1,5,1,0.083,2,619.0,825.0,6 (Wnl),FPL 5: AutoPick Strikes Back,9,6
-0,0,6,0,0.0,3,675.5,902.5,6 (L),Walton Goggonzola,10,6
-6,0,1,18,0.857,10,983.0,856.5,6 (W),Mattchester United,1,7
-5,0,2,15,0.714,9,,838.5,2 (W),GAK-PO-TAY-TOES,2,7
-5,0,2,15,0.714,1,987.0,874.5,1 (W),Morning Timber,3,7
-5,0,2,15,0.714,7,965.0,841.0,2 (L),Cheasle FC,4,7
-3,1,3,10,0.5,6,906.5,918.0,3 (Und),Thottenham Hotsluts,5,7
+3,0,3,9,0.5,7,795.5,792.0,2 (W),Seanhampton,7,6
+2,1,3,7,0.417,2,752.5,787.5,2 (Und),Thottenham Hotsluts,8,6
+0,1,5,1,0.083,1,619.0,825.0,6 (Wnl),FPL 5: AutoPick Strikes Back,9,6
+0,0,6,0,0.0,6,675.5,902.5,6 (L),Walton Goggonzola,10,6
+6,0,1,18,0.857,9,983.0,856.5,6 (W),Mattchester United,1,7
+5,0,2,15,0.714,10,,838.5,2 (W),GAK-PO-TAY-TOES,2,7
+5,0,2,15,0.714,3,987.0,874.5,1 (W),Morning Timber,3,7
+5,0,2,15,0.714,8,965.0,841.0,2 (L),Cheasle FC,4,7
+3,1,3,10,0.5,2,906.5,918.0,3 (Und),Thottenham Hotsluts,5,7
 3,0,4,9,0.429,4,967.5,988.0,3 (L),Benford FC,6,7
 3,0,4,9,0.429,5,930.5,,1 (L),Magpies United,7,7
-3,0,4,9,0.429,8,924.5,939.0,1 (L),Seanhampton,8,7
-1,1,5,4,0.214,2,753.5,899.0,2 (Und),FPL 5: AutoPick Strikes Back,9,7
-0,0,7,0,0.0,3,749.5,,7 (L),Walton Goggonzola,10,7
-7,0,1,21,0.875,10,,,7 (W),Mattchester United,1,8
-6,0,2,18,0.75,1,,,2 (W),Morning Timber,2,8
-5,0,3,15,0.625,9,,,1 (L),GAK-PO-TAY-TOES,3,8
-5,0,3,15,0.625,7,,,3 (L),Cheasle FC,4,8
+3,0,4,9,0.429,7,924.5,939.0,1 (L),Seanhampton,8,7
+1,1,5,4,0.214,1,753.5,899.0,2 (Und),FPL 5: AutoPick Strikes Back,9,7
+0,0,7,0,0.0,6,749.5,,7 (L),Walton Goggonzola,10,7
+7,0,1,21,0.875,9,,,7 (W),Mattchester United,1,8
+6,0,2,18,0.75,3,,,2 (W),Morning Timber,2,8
+5,0,3,15,0.625,10,,,1 (L),GAK-PO-TAY-TOES,3,8
+5,0,3,15,0.625,8,,,3 (L),Cheasle FC,4,8
 4,0,4,12,0.5,4,,,1 (W),Benford FC,5,8
 4,0,4,12,0.5,5,,,1 (W),Magpies United,6,8
-4,0,4,12,0.5,8,,,1 (W),Seanhampton,7,8
-3,1,4,10,0.438,6,,,1 (L),Thottenham Hotsluts,8,8
-1,1,6,4,0.188,2,876.0,,1 (L),FPL 5: AutoPick Strikes Back,9,8
-0,0,8,0,0.0,3,869.5,,8 (L),Walton Goggonzola,10,8
-8,0,1,24,0.889,10,,,8 (W),Mattchester United,1,9
-6,0,3,18,0.667,1,,,1 (L),Morning Timber,2,9
-5,0,4,15,0.556,9,,,2 (L),GAK-PO-TAY-TOES,3,9
-5,0,4,15,0.556,7,,,4 (L),Cheasle FC,4,9
+4,0,4,12,0.5,7,,,1 (W),Seanhampton,7,8
+3,1,4,10,0.438,2,,,1 (L),Thottenham Hotsluts,8,8
+1,1,6,4,0.188,1,876.0,,1 (L),FPL 5: AutoPick Strikes Back,9,8
+0,0,8,0,0.0,6,869.5,,8 (L),Walton Goggonzola,10,8
+8,0,1,24,0.889,9,,,8 (W),Mattchester United,1,9
+6,0,3,18,0.667,3,,,1 (L),Morning Timber,2,9
+5,0,4,15,0.556,10,,,2 (L),GAK-PO-TAY-TOES,3,9
+5,0,4,15,0.556,8,,,4 (L),Cheasle FC,4,9
 5,0,4,15,0.556,5,,,2 (W),Magpies United,5,9
-4,1,4,13,0.5,6,,,1 (W),Thottenham Hotsluts,6,9
+4,1,4,13,0.5,2,,,1 (W),Thottenham Hotsluts,6,9
 4,0,5,12,0.444,4,,,1 (L),Benford FC,7,9
-4,0,5,12,0.444,8,,,1 (L),Seanhampton,8,9
-2,1,6,7,0.278,2,,,1 (W),FPL 5: AutoPick Strikes Back,9,9
-1,0,8,3,0.111,3,,,1 (W),Walton Goggonzola,10,9
-9,0,1,27,0.9,10,,,9 (W),Mattchester United,1,10
-7,0,3,21,0.7,1,,,1 (W),Morning Timber,2,10
-6,0,4,18,0.6,9,,,1 (W),GAK-PO-TAY-TOES,3,10
-6,0,4,18,0.6,7,,,1 (W),Cheasle FC,4,10
+4,0,5,12,0.444,7,,,1 (L),Seanhampton,8,9
+2,1,6,7,0.278,1,,,1 (W),FPL 5: AutoPick Strikes Back,9,9
+1,0,8,3,0.111,6,,,1 (W),Walton Goggonzola,10,9
+9,0,1,27,0.9,9,,,9 (W),Mattchester United,1,10
+7,0,3,21,0.7,3,,,1 (W),Morning Timber,2,10
+6,0,4,18,0.6,10,,,1 (W),GAK-PO-TAY-TOES,3,10
+6,0,4,18,0.6,8,,,1 (W),Cheasle FC,4,10
 5,0,5,15,0.5,4,,,1 (W),Benford FC,5,10
 5,0,5,15,0.5,5,,,1 (L),Magpies United,6,10
-4,1,5,13,0.45,6,,,1 (L),Thottenham Hotsluts,7,10
-4,0,6,12,0.4,8,,,2 (L),Seanhampton,8,10
-2,1,7,7,0.25,2,,,1 (L),FPL 5: AutoPick Strikes Back,9,10
-1,0,9,3,0.1,3,,,1 (L),Walton Goggonzola,10,10
-10,0,1,30,0.909,10,,,10 (W),Mattchester United,1,11
-7,0,4,21,0.636,1,,,1 (L),Morning Timber,2,11
-7,0,4,21,0.636,7,,,2 (W),Cheasle FC,3,11
-6,0,5,18,0.545,9,,,1 (L),GAK-PO-TAY-TOES,4,11
+4,1,5,13,0.45,2,,,1 (L),Thottenham Hotsluts,7,10
+4,0,6,12,0.4,7,,,2 (L),Seanhampton,8,10
+2,1,7,7,0.25,1,,,1 (L),FPL 5: AutoPick Strikes Back,9,10
+1,0,9,3,0.1,6,,,1 (L),Walton Goggonzola,10,10
+10,0,1,30,0.909,9,,,10 (W),Mattchester United,1,11
+7,0,4,21,0.636,3,,,1 (L),Morning Timber,2,11
+7,0,4,21,0.636,8,,,2 (W),Cheasle FC,3,11
+6,0,5,18,0.545,10,,,1 (L),GAK-PO-TAY-TOES,4,11
 6,0,5,18,0.545,5,,,1 (W),Magpies United,5,11
 5,0,6,15,0.455,4,,,1 (L),Benford FC,6,11
-4,1,6,13,0.409,6,,,2 (L),Thottenham Hotsluts,7,11
-4,0,7,12,0.364,8,,,3 (L),Seanhampton,8,11
-3,1,7,10,0.318,2,,,1 (W),FPL 5: AutoPick Strikes Back,9,11
-2,0,9,6,0.182,3,,,1 (W),Walton Goggonzola,10,11
-11,0,1,33,0.917,10,,,11 (W),Mattchester United,1,12
-8,0,4,24,0.667,7,,,3 (W),Cheasle FC,2,12
-7,0,5,21,0.583,9,,,1 (W),GAK-PO-TAY-TOES,3,12
-7,0,5,21,0.583,1,,,2 (L),Morning Timber,4,12
+4,1,6,13,0.409,2,,,2 (L),Thottenham Hotsluts,7,11
+4,0,7,12,0.364,7,,,3 (L),Seanhampton,8,11
+3,1,7,10,0.318,1,,,1 (W),FPL 5: AutoPick Strikes Back,9,11
+2,0,9,6,0.182,6,,,1 (W),Walton Goggonzola,10,11
+11,0,1,33,0.917,9,,,11 (W),Mattchester United,1,12
+8,0,4,24,0.667,8,,,3 (W),Cheasle FC,2,12
+7,0,5,21,0.583,10,,,1 (W),GAK-PO-TAY-TOES,3,12
+7,0,5,21,0.583,3,,,2 (L),Morning Timber,4,12
 7,0,5,21,0.583,5,,,2 (W),Magpies United,5,12
-5,1,6,16,0.458,6,,,1 (W),Thottenham Hotsluts,6,12
+5,1,6,16,0.458,2,,,1 (W),Thottenham Hotsluts,6,12
 5,0,7,15,0.417,4,,,2 (L),Benford FC,7,12
-4,0,8,12,0.333,8,,,4 (L),Seanhampton,8,12
-3,1,8,10,0.292,2,,,1 (L),FPL 5: AutoPick Strikes Back,9,12
-2,0,10,6,0.167,3,,,1 (L),Walton Goggonzola,10,12
-12,0,1,36,0.923,10,,,12 (W),Mattchester United,1,13
-9,0,4,27,0.692,7,,,4 (W),Cheasle FC,2,13
-8,0,5,24,0.615,9,,,2 (W),GAK-PO-TAY-TOES,3,13
-8,0,5,24,0.615,1,,,1 (W),Morning Timber,4,13
+4,0,8,12,0.333,7,,,4 (L),Seanhampton,8,12
+3,1,8,10,0.292,1,,,1 (L),FPL 5: AutoPick Strikes Back,9,12
+2,0,10,6,0.167,6,,,1 (L),Walton Goggonzola,10,12
+12,0,1,36,0.923,9,,,12 (W),Mattchester United,1,13
+9,0,4,27,0.692,8,,,4 (W),Cheasle FC,2,13
+8,0,5,24,0.615,10,,,2 (W),GAK-PO-TAY-TOES,3,13
+8,0,5,24,0.615,3,,,1 (W),Morning Timber,4,13
 8,0,5,24,0.615,5,,,3 (W),Magpies United,5,13
-5,1,7,16,0.423,6,,,1 (L),Thottenham Hotsluts,6,13
+5,1,7,16,0.423,2,,,1 (L),Thottenham Hotsluts,6,13
 5,0,8,15,0.385,4,,,3 (L),Benford FC,7,13
-4,0,9,12,0.308,8,,,5 (L),Seanhampton,8,13
-3,1,9,10,0.269,2,,,2 (L),FPL 5: AutoPick Strikes Back,9,13
-2,0,11,6,0.154,3,,,2 (L),Walton Goggonzola,10,13
-13,0,1,39,0.929,10,,,13 (W),Mattchester United,1,14
-9,0,5,27,0.643,9,,,3 (W),GAK-PO-TAY-TOES,2,14
-9,0,5,27,0.643,7,,,1 (L),Cheasle FC,3,14
-8,0,6,24,0.571,1,,,1 (L),Morning Timber,4,14
+4,0,9,12,0.308,7,,,5 (L),Seanhampton,8,13
+3,1,9,10,0.269,1,,,2 (L),FPL 5: AutoPick Strikes Back,9,13
+2,0,11,6,0.154,6,,,2 (L),Walton Goggonzola,10,13
+13,0,1,39,0.929,9,,,13 (W),Mattchester United,1,14
+9,0,5,27,0.643,10,,,3 (W),GAK-PO-TAY-TOES,2,14
+9,0,5,27,0.643,8,,,1 (L),Cheasle FC,3,14
+8,0,6,24,0.571,3,,,1 (L),Morning Timber,4,14
 8,0,6,24,0.571,5,,,1 (L),Magpies United,5,14
 6,0,8,18,0.429,4,,,1 (W),Benford FC,6,14
-5,1,8,16,0.393,6,,,2 (L),Thottenham Hotsluts,7,14
-5,0,9,15,0.357,8,,,1 (W),Seanhampton,8,14
-3,1,10,10,0.25,2,,,3 (L),FPL 5: AutoPick Strikes Back,9,14
-3,0,11,9,0.214,3,,,1 (W),Walton Goggonzola,10,14
-14,0,1,42,0.933,10,,,14 (W),Mattchester United,1,15
-10,0,5,30,0.667,9,,,4 (W),GAK-PO-TAY-TOES,2,15
+5,1,8,16,0.393,2,,,2 (L),Thottenham Hotsluts,7,14
+5,0,9,15,0.357,7,,,1 (W),Seanhampton,8,14
+3,1,10,10,0.25,1,,,3 (L),FPL 5: AutoPick Strikes Back,9,14
+3,0,11,9,0.214,6,,,1 (W),Walton Goggonzola,10,14
+14,0,1,42,0.933,9,,,14 (W),Mattchester United,1,15
+10,0,5,30,0.667,10,,,4 (W),GAK-PO-TAY-TOES,2,15
 9,0,6,27,0.6,5,,,1 (W),Magpies United,3,15
-9,0,6,27,0.6,7,,,2 (L),Cheasle FC,4,15
-8,0,7,24,0.533,1,,,2 (L),Morning Timber,5,15
-6,1,8,19,0.433,6,,,1 (W),Thottenham Hotsluts,6,15
+9,0,6,27,0.6,8,,,2 (L),Cheasle FC,4,15
+8,0,7,24,0.533,3,,,2 (L),Morning Timber,5,15
+6,1,8,19,0.433,2,,,1 (W),Thottenham Hotsluts,6,15
 6,0,9,18,0.4,4,,,1 (L),Benford FC,7,15
-6,0,9,18,0.4,8,,,2 (W),Seanhampton,8,15
-3,1,11,10,0.233,2,,,4 (L),FPL 5: AutoPick Strikes Back,9,15
-3,0,12,9,0.2,3,,,1 (L),Walton Goggonzola,10,15
-15,0,1,45,0.938,10,,,15 (W),Mattchester United,1,16
-11,0,5,33,0.688,9,,,5 (W),GAK-PO-TAY-TOES,2,16
-10,0,6,30,0.625,7,,,1 (W),Cheasle FC,3,16
+6,0,9,18,0.4,7,,,2 (W),Seanhampton,8,15
+3,1,11,10,0.233,1,,,4 (L),FPL 5: AutoPick Strikes Back,9,15
+3,0,12,9,0.2,6,,,1 (L),Walton Goggonzola,10,15
+15,0,1,45,0.938,9,,,15 (W),Mattchester United,1,16
+11,0,5,33,0.688,10,,,5 (W),GAK-PO-TAY-TOES,2,16
+10,0,6,30,0.625,8,,,1 (W),Cheasle FC,3,16
 9,0,7,27,0.562,5,,,1 (L),Magpies United,4,16
-8,0,8,24,0.5,1,,,3 (L),Morning Timber,5,16
+8,0,8,24,0.5,3,,,3 (L),Morning Timber,5,16
 7,0,9,21,0.438,4,,,1 (W),Benford FC,6,16
-6,1,9,19,0.406,6,,,1 (L),Thottenham Hotsluts,7,16
-6,0,10,18,0.375,8,,,1 (L),Seanhampton,8,16
-4,1,11,13,0.281,2,,,1 (W),FPL 5: AutoPick Strikes Back,9,16
-3,0,13,9,0.188,3,,,2 (L),Walton Goggonzola,10,16
-15,0,2,45,0.882,10,,,1 (L),Mattchester United,1,17
-12,0,5,36,0.706,9,,,6 (W),GAK-PO-TAY-TOES,2,17
-11,0,6,33,0.647,7,,,2 (W),Cheasle FC,3,17
+6,1,9,19,0.406,2,,,1 (L),Thottenham Hotsluts,7,16
+6,0,10,18,0.375,7,,,1 (L),Seanhampton,8,16
+4,1,11,13,0.281,1,,,1 (W),FPL 5: AutoPick Strikes Back,9,16
+3,0,13,9,0.188,6,,,2 (L),Walton Goggonzola,10,16
+15,0,2,45,0.882,9,,,1 (L),Mattchester United,1,17
+12,0,5,36,0.706,10,,,6 (W),GAK-PO-TAY-TOES,2,17
+11,0,6,33,0.647,8,,,2 (W),Cheasle FC,3,17
 10,0,7,30,0.588,5,,,1 (W),Magpies United,4,17
-8,0,9,24,0.471,1,,,4 (L),Morning Timber,5,17
+8,0,9,24,0.471,3,,,4 (L),Morning Timber,5,17
 8,0,9,24,0.471,4,,,2 (W),Benford FC,6,17
-7,0,10,21,0.412,8,,,1 (W),Seanhampton,7,17
-6,1,10,19,0.382,6,,,2 (L),Thottenham Hotsluts,8,17
-4,1,12,13,0.265,2,,,1 (L),FPL 5: AutoPick Strikes Back,9,17
-3,0,14,9,0.176,3,,,3 (L),Walton Goggonzola,10,17
-15,0,3,45,0.833,10,,,2 (L),Mattchester United,1,18
-13,0,5,39,0.722,9,,,7 (W),GAK-PO-TAY-TOES,2,18
-12,0,6,36,0.667,7,,,3 (W),Cheasle FC,3,18
+7,0,10,21,0.412,7,,,1 (W),Seanhampton,7,17
+6,1,10,19,0.382,2,,,2 (L),Thottenham Hotsluts,8,17
+4,1,12,13,0.265,1,,,1 (L),FPL 5: AutoPick Strikes Back,9,17
+3,0,14,9,0.176,6,,,3 (L),Walton Goggonzola,10,17
+15,0,3,45,0.833,9,,,2 (L),Mattchester United,1,18
+13,0,5,39,0.722,10,,,7 (W),GAK-PO-TAY-TOES,2,18
+12,0,6,36,0.667,8,,,3 (W),Cheasle FC,3,18
 11,0,7,33,0.611,5,,,2 (W),Magpies United,4,18
 9,0,9,27,0.5,4,,,3 (W),Benford FC,5,18
-8,0,10,24,0.444,1,,,5 (L),Morning Timber,6,18
-7,0,11,21,0.389,8,,,1 (L),Seanhampton,7,18
-6,1,11,19,0.361,6,,,3 (L),Thottenham Hotsluts,8,18
-5,1,12,16,0.306,2,,,1 (W),FPL 5: AutoPick Strikes Back,9,18
-3,0,15,9,0.167,3,,,4 (L),Walton Goggonzola,10,18
-15,0,4,45,0.789,10,,,3 (L),Mattchester United,1,19
-13,0,6,39,0.684,9,,,1 (L),GAK-PO-TAY-TOES,2,19
-12,0,7,36,0.632,7,,,1 (L),Cheasle FC,3,19
+8,0,10,24,0.444,3,,,5 (L),Morning Timber,6,18
+7,0,11,21,0.389,7,,,1 (L),Seanhampton,7,18
+6,1,11,19,0.361,2,,,3 (L),Thottenham Hotsluts,8,18
+5,1,12,16,0.306,1,,,1 (W),FPL 5: AutoPick Strikes Back,9,18
+3,0,15,9,0.167,6,,,4 (L),Walton Goggonzola,10,18
+15,0,4,45,0.789,9,,,3 (L),Mattchester United,1,19
+13,0,6,39,0.684,10,,,1 (L),GAK-PO-TAY-TOES,2,19
+12,0,7,36,0.632,8,,,1 (L),Cheasle FC,3,19
 12,0,7,36,0.632,5,,,3 (W),Magpies United,4,19
 9,0,10,27,0.474,4,,,1 (L),Benford FC,5,19
-8,0,11,24,0.421,1,,,6 (L),Morning Timber,6,19
-8,0,11,24,0.421,8,,,1 (W),Seanhampton,7,19
-7,1,11,22,0.395,6,,,1 (W),Thottenham Hotsluts,8,19
-6,1,12,19,0.342,2,,,2 (W),FPL 5: AutoPick Strikes Back,9,19
-4,0,15,12,0.211,3,,,1 (W),Walton Goggonzola,10,19
-16,0,4,48,0.8,10,,,1 (W),Mattchester United,1,20
-14,0,6,42,0.7,9,,,1 (W),GAK-PO-TAY-TOES,2,20
-13,0,7,39,0.65,7,,,1 (W),Cheasle FC,3,20
+8,0,11,24,0.421,3,,,6 (L),Morning Timber,6,19
+8,0,11,24,0.421,7,,,1 (W),Seanhampton,7,19
+7,1,11,22,0.395,2,,,1 (W),Thottenham Hotsluts,8,19
+6,1,12,19,0.342,1,,,2 (W),FPL 5: AutoPick Strikes Back,9,19
+4,0,15,12,0.211,6,,,1 (W),Walton Goggonzola,10,19
+16,0,4,48,0.8,9,,,1 (W),Mattchester United,1,20
+14,0,6,42,0.7,10,,,1 (W),GAK-PO-TAY-TOES,2,20
+13,0,7,39,0.65,8,,,1 (W),Cheasle FC,3,20
 13,0,7,39,0.65,5,,,4 (W),Magpies United,4,20
 9,0,11,27,0.45,4,,,2 (L),Benford FC,5,20
-8,0,12,24,0.4,1,,,7 (L),Morning Timber,6,20
-8,0,12,24,0.4,8,,,1 (L),Seanhampton,7,20
-7,1,12,22,0.375,6,,,1 (L),Thottenham Hotsluts,8,20
-6,1,13,19,0.325,2,,,1 (L),FPL 5: AutoPick Strikes Back,9,20
-5,0,15,15,0.25,3,,,2 (W),Walton Goggonzola,10,20
-17,0,4,51,0.81,10,,,2 (W),Mattchester United,1,21
-14,1,6,43,0.69,9,,,2 (Und),GAK-PO-TAY-TOES,2,21
+8,0,12,24,0.4,3,,,7 (L),Morning Timber,6,20
+8,0,12,24,0.4,7,,,1 (L),Seanhampton,7,20
+7,1,12,22,0.375,2,,,1 (L),Thottenham Hotsluts,8,20
+6,1,13,19,0.325,1,,,1 (L),FPL 5: AutoPick Strikes Back,9,20
+5,0,15,15,0.25,6,,,2 (W),Walton Goggonzola,10,20
+17,0,4,51,0.81,9,,,2 (W),Mattchester United,1,21
+14,1,6,43,0.69,10,,,2 (Und),GAK-PO-TAY-TOES,2,21
 14,0,7,42,0.667,5,,,5 (W),Magpies United,3,21
-13,0,8,39,0.619,7,,,1 (L),Cheasle FC,4,21
+13,0,8,39,0.619,8,,,1 (L),Cheasle FC,4,21
 9,1,11,28,0.452,4,,,3 (Wnl),Benford FC,5,21
-9,0,12,27,0.429,1,,,1 (W),Morning Timber,6,21
-9,0,12,27,0.429,8,,,1 (W),Seanhampton,7,21
-7,1,13,22,0.357,6,,,2 (L),Thottenham Hotsluts,8,21
-6,1,14,19,0.31,2,,,2 (L),FPL 5: AutoPick Strikes Back,9,21
-5,0,16,15,0.238,3,,,1 (L),Walton Goggonzola,10,21
-18,0,4,54,0.818,10,,,3 (W),Mattchester United,1,22
-15,1,6,46,0.705,9,,,3 (Und),GAK-PO-TAY-TOES,2,22
+9,0,12,27,0.429,3,,,1 (W),Morning Timber,6,21
+9,0,12,27,0.429,7,,,1 (W),Seanhampton,7,21
+7,1,13,22,0.357,2,,,2 (L),Thottenham Hotsluts,8,21
+6,1,14,19,0.31,1,,,2 (L),FPL 5: AutoPick Strikes Back,9,21
+5,0,16,15,0.238,6,,,1 (L),Walton Goggonzola,10,21
+18,0,4,54,0.818,9,,,3 (W),Mattchester United,1,22
+15,1,6,46,0.705,10,,,3 (Und),GAK-PO-TAY-TOES,2,22
 14,0,8,42,0.636,5,,,1 (L),Magpies United,3,22
-14,0,8,42,0.636,7,,,1 (W),Cheasle FC,4,22
+14,0,8,42,0.636,8,,,1 (W),Cheasle FC,4,22
 10,1,11,31,0.477,4,,,2 (Und),Benford FC,5,22
-9,0,13,27,0.409,1,,,1 (L),Morning Timber,6,22
-9,0,13,27,0.409,8,,,1 (L),Seanhampton,7,22
-7,1,14,22,0.341,2,,,1 (W),FPL 5: AutoPick Strikes Back,8,22
-7,1,14,22,0.341,6,,,3 (L),Thottenham Hotsluts,9,22
-5,0,17,15,0.227,3,,,2 (L),Walton Goggonzola,10,22
-18,1,4,55,0.804,10,,,4 (Und),Mattchester United,1,23
-15,1,7,46,0.674,9,,,1 (L),GAK-PO-TAY-TOES,2,23
+9,0,13,27,0.409,3,,,1 (L),Morning Timber,6,22
+9,0,13,27,0.409,7,,,1 (L),Seanhampton,7,22
+7,1,14,22,0.341,1,,,1 (W),FPL 5: AutoPick Strikes Back,8,22
+7,1,14,22,0.341,2,,,3 (L),Thottenham Hotsluts,9,22
+5,0,17,15,0.227,6,,,2 (L),Walton Goggonzola,10,22
+18,1,4,55,0.804,9,,,4 (Und),Mattchester United,1,23
+15,1,7,46,0.674,10,,,1 (L),GAK-PO-TAY-TOES,2,23
 15,0,8,45,0.652,5,,,1 (W),Magpies United,3,23
-15,0,8,45,0.652,7,,,2 (W),Cheasle FC,4,23
+15,0,8,45,0.652,8,,,2 (W),Cheasle FC,4,23
 11,1,11,34,0.5,4,,,3 (Und),Benford FC,5,23
-9,0,14,27,0.391,1,,,2 (L),Morning Timber,6,23
-9,0,14,27,0.391,8,,,2 (L),Seanhampton,7,23
-7,2,14,23,0.348,2,,,2 (Und),FPL 5: AutoPick Strikes Back,8,23
-7,1,15,22,0.326,6,,,4 (L),Thottenham Hotsluts,9,23
-6,0,17,18,0.261,3,,,1 (W),Walton Goggonzola,10,23
+9,0,14,27,0.391,3,,,2 (L),Morning Timber,6,23
+9,0,14,27,0.391,7,,,2 (L),Seanhampton,7,23
+7,2,14,23,0.348,1,,,2 (Und),FPL 5: AutoPick Strikes Back,8,23
+7,1,15,22,0.326,2,,,4 (L),Thottenham Hotsluts,9,23
+6,0,17,18,0.261,6,,,1 (W),Walton Goggonzola,10,23
