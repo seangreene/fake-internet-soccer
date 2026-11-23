@@ -20,9 +20,10 @@ WORKSPACE := _workspace
 RUNS := $(WORKSPACE)/runs
 # The kernel talks to nbconvert over local Unix sockets (ipc) in $(RUNS) instead of
 # unencrypted TCP, which also silences the "running over TCP without encryption" warning.
+# The socket path must be absolute: the kernel runs from the notebook's folder, not here.
 NBCONVERT := $(PYTHON) -m jupyter nbconvert --to notebook --execute \
 	--ExecutePreprocessor.timeout=900 --ExecutePreprocessor.kernel_name=python3 \
-	--KernelManager.transport=ipc --KernelManager.ip=$(RUNS)/kernel \
+	--KernelManager.transport=ipc --KernelManager.ip=$(abspath $(RUNS))/kernel \
 	--output-dir $(RUNS)
 
 export LATEST_GW SEASON
@@ -32,9 +33,11 @@ export LATEST_GW SEASON
 update: standings scores
 
 standings:
+	@mkdir -p $(RUNS)
 	$(NBCONVERT) $(WORKSPACE)/standings.ipynb
 
 scores:
+	@mkdir -p $(RUNS)
 	$(NBCONVERT) $(WORKSPACE)/scores.ipynb
 
 recolor:
