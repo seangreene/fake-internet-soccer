@@ -44,6 +44,9 @@ async function main() {
       updatedH2hChartInfo[0],
       updatedH2hChartInfo[1]
     );
+
+    // form is only for the current season
+    setFormVisible(Number(selectedSeason) === latestSeason);
   });
 
   // render bump chart ("Race to the bottom")
@@ -53,5 +56,22 @@ async function main() {
   // render h2h chart
   let h2hChartContainer = document.getElementById('h2h-chart');
   renderDatawrapper(h2hChartContainer, h2hChartId, h2hpChartVersion);
+
+  // render form table (one chart, overwritten by the scores notebook each run)
+  const formChartContainer = document.getElementById('form-chart');
+  // hide the whole section: its .chart wrapper and the spacer above it
+  const formSection = formChartContainer.closest('.chart');
+  const setFormVisible = (visible) => {
+    formSection.hidden = !visible;
+    formSection.previousElementSibling.hidden = !visible;
+  };
+  const formEl = document.getElementById('formMetadata');
+  const formMeta = formEl ? JSON.parse(formEl.textContent) : null;
+  const formVersion = formMeta && (latestVersions[formMeta.chart_id] || formMeta.version);
+  if (formVersion) {
+    renderDatawrapper(formChartContainer, formMeta.chart_id, formVersion);
+  } else {
+    setFormVisible(false);
+  }
 }
 main().catch(console.error);

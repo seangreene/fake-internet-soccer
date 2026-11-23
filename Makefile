@@ -1,32 +1,44 @@
 # Update the league charts by running the season notebooks.
 #
-#   make update                 # standings + head-to-head for the current season
+#   make update                 # standings + head-to-head for the newest season in _workspace/seasons.json
 #   make update LATEST_GW=10    # force a gameweek instead of auto-detecting it
 #   make standings / make scores
-#   make update SEASON=15       # an older season's notebooks
+#   make update SEASON=16       # a specific season
+#   make recolor                # re-apply team-colors.json to every season's line chart and republish
+#
+# New season: add its Fantrax league ID to _workspace/seasons.json. The first run
+# copies last season's Datawrapper charts and adds them to _data/charts.json.
 #
 # Needs a Datawrapper token in .env or DATAWRAPPER_API_TOKEN (see _workspace/dw_helpers.py).
 # Executed copies of the notebooks go to _workspace/runs/ (git-ignored), so the
 # notebooks you edit in Jupyter are never touched.
 
-SEASON ?= 16
+# Whichever Python you run notebooks with; `make install` puts the packages there.
+# e.g. `make update PYTHON=/path/to/python`
+PYTHON ?= python3
 WORKSPACE := _workspace
 RUNS := $(WORKSPACE)/runs
-NBCONVERT := jupyter nbconvert --to notebook --execute \
+# The kernel talks to nbconvert over local Unix sockets (ipc) in $(RUNS) instead of
+# unencrypted TCP, which also silences the "running over TCP without encryption" warning.
+NBCONVERT := $(PYTHON) -m jupyter nbconvert --to notebook --execute \
 	--ExecutePreprocessor.timeout=900 --ExecutePreprocessor.kernel_name=python3 \
+	--KernelManager.transport=ipc --KernelManager.ip=$(RUNS)/kernel \
 	--output-dir $(RUNS)
 
-export LATEST_GW
+export LATEST_GW SEASON
 
-.PHONY: update standings scores install
+.PHONY: update standings scores recolor install
 
 update: standings scores
 
 standings:
-	$(NBCONVERT) $(WORKSPACE)/standings-$(SEASON).ipynb
+	$(NBCONVERT) $(WORKSPACE)/standings.ipynb
 
 scores:
-	$(NBCONVERT) $(WORKSPACE)/scores-$(SEASON).ipynb
+	$(NBCONVERT) $(WORKSPACE)/scores.ipynb
+
+recolor:
+	cd $(WORKSPACE) && $(PYTHON) recolor_charts.py
 
 install:
-	pip install -r $(WORKSPACE)/requirements.txt
+	$(PYTHON) -m pip install -r $(WORKSPACE)/requirements.txt

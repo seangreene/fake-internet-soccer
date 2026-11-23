@@ -14,19 +14,36 @@ ENV_FILE = Path(__file__).resolve().parent.parent / '.env'
 
 
 def get_token():
-    """Read the token from the environment, or from a .env file at the repo root."""
-    token = os.environ.get('DATAWRAPPER_API_TOKEN')
-    if not token and ENV_FILE.exists():
+    """Token from the repo's .env file if there is one, otherwise the environment.
+
+    .env wins so a stale `export` in your shell can't quietly override it;
+    GitHub Actions has no .env and uses the repository secret.
+    """
+    token = None
+    if ENV_FILE.exists():
         for line in ENV_FILE.read_text().splitlines():
             key, _, value = line.partition('=')
             if key.replace('export ', '').strip() == 'DATAWRAPPER_API_TOKEN':
                 token = value.strip().strip('"').strip("'")
+    token = token or os.environ.get('DATAWRAPPER_API_TOKEN')
     if not token:
         raise RuntimeError(
             f'No Datawrapper token found. Add this line to {ENV_FILE}:\n'
             '  DATAWRAPPER_API_TOKEN=your-token'
         )
     return token
+
+
+def check(r):
+    """raise_for_status, with a hint for the usual Datawrapper auth problems."""
+    if r.status_code in (401, 403):
+        raise RuntimeError(
+            f'Datawrapper said {r.status_code} for {r.url}. The token in {ENV_FILE} '
+            '(or DATAWRAPPER_API_TOKEN) was rejected: it may be an old or deleted key, '
+            'or it may be missing the chart:read / chart:write scopes.'
+        )
+    r.raise_for_status()
+    return r
 
 
 def headers(content_type='application/json'):
@@ -50,13 +67,13 @@ def save_charts(charts):
 def fix_title(chart_id, season, template_season):
     """Drop Datawrapper's "(Copy)" suffix and swap the old season number for the new one."""
     r = requests.get(f'{BASE_URL}/{chart_id}', headers=headers())
-    r.raise_for_status()
+    check(r)
     old_title = r.json().get('title') or ''
     new_title = re.sub(r'\s*\(Copy\)\s*$', '', old_title)
     new_title = new_title.replace(f'Season {template_season}', f'Season {season}')
     if new_title != old_title:
         p = requests.patch(f'{BASE_URL}/{chart_id}', json={'title': new_title}, headers=headers())
-        p.raise_for_status()
+        check(p)
         print(f'Retitled {chart_id}: {old_title!r} -> {new_title!r}')
 
 
@@ -78,7 +95,7 @@ def ensure_season_charts(season, template_season):
             continue
         src_id = charts[template_season][kind]['chart_id']
         r = requests.post(f'{BASE_URL}/{src_id}/copy', headers=headers())
-        r.raise_for_status()
+        check(r)
         new_id = r.json()['id']
         print(f'Created Season {season} {kind} chart {new_id} (copy of {src_id})')
         entry[kind] = {'chart_id': new_id, 'version': 0}
@@ -91,13 +108,17 @@ def ensure_season_charts(season, template_season):
     return entry
 
 
-def publish(chart_id, season, kind):
-    """Publish a chart and record its new public version in charts.json."""
+def publish(chart_id, season=None, kind=None):
+    """Publish a chart and return its new public version.
+
+    With season and kind, also records the version in charts.json.
+    """
     r = requests.post(f'{BASE_URL}/{chart_id}/publish', headers=headers())
-    r.raise_for_status()
+    check(r)
     version = r.json()['data']['publicVersion']
-    charts = load_charts()
-    charts[str(season)][kind]['version'] = version
-    save_charts(charts)
-    print(f'Published {kind} chart {chart_id} v{version}')
+    if season is not None and kind is not None:
+        charts = load_charts()
+        charts[str(season)][kind]['version'] = version
+        save_charts(charts)
+    print(f'Published {kind or "chart"} {chart_id} v{version}')
     return version

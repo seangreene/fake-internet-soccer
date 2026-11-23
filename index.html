@@ -4,11 +4,8 @@
 <link rel="stylesheet" href="{% static 'styles/app.scss' %}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,500;1,700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,400;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&display=swap" rel="stylesheet">
+<!-- Only the styles app.scss uses: Lora italic 400 (subhead), Nunito Sans 600 (season picker) and italic 1000 (headline) -->
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400&family=Nunito+Sans:ital,wght@0,600;1,1000&display=swap" rel="stylesheet">
 {% endblock styles %}
 
 {% block scripts %}
@@ -50,11 +47,15 @@
             </option>
           {% endfor %}
         </select>
-        <div id="bump-chart" class="datawrapper-embed" data-chart-id="b7v86"></div>
+        <div id="bump-chart" class="datawrapper-embed"></div>
       </div>
       <div class="spacer"></div>
       <div class="chart">
-        <div id="h2h-chart" class="datawrapper-embed" data-chart-id="4Qpyc"></div>
+        <div id="h2h-chart" class="datawrapper-embed"></div>
+      </div>
+      <div class="spacer"></div>
+      <div class="chart">
+        <div id="form-chart" class="datawrapper-embed"></div>
       </div>
     </div>
   </div>
@@ -72,6 +73,7 @@
 {% block extra_scripts %}
 
 {{charts|jsonScript('chartsMetadata')}}
+{{form|jsonScript('formMetadata')}}
 {{(datawrapper_versions or {})|jsonScript('datawrapperVersions')}}
 
 {% endblock %}

@@ -2,7 +2,7 @@
   "12": {
     "standings": {
       "chart_id": "0HuN5",
-      "version": 8
+      "version": 9
     },
     "h2h": {
       "chart_id": "uO64h",
@@ -12,7 +12,7 @@
   "13": {
     "standings": {
       "chart_id": "Laqax",
-      "version": 8
+      "version": 9
     },
     "h2h": {
       "chart_id": "J4c3d",
@@ -22,7 +22,7 @@
   "14": {
     "standings": {
       "chart_id": "cbTuU",
-      "version": 9
+      "version": 10
     },
     "h2h": {
       "chart_id": "xJAdB",
@@ -32,7 +32,7 @@
   "15": {
     "standings": {
       "chart_id": "b7v86",
-      "version": 27
+      "version": 29
     },
     "h2h": {
       "chart_id": "4Qpyc",
@@ -42,11 +42,11 @@
   "16": {
     "standings": {
       "chart_id": "a1old",
-      "version": 1
+      "version": 5
     },
     "h2h": {
       "chart_id": "FoX4v",
-      "version": 3
+      "version": 7
     }
   }
 }
