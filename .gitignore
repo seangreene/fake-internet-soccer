@@ -127,3 +127,4 @@ tags
 # generated at build time by _workspace/datawrapper-versions.mjs
 _data/datawrapper_versions.json
 __pycache__/
+_workspace/runs/

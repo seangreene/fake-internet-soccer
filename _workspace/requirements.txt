@@ -1,0 +1,6 @@
+# Just what the season notebooks need to run headless (make update / GitHub Actions)
+pandas
+numpy
+requests
+nbconvert
+ipykernel

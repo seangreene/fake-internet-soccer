@@ -1,0 +1,81 @@
+name: Update charts
+
+# Runs the season notebooks (`make update`), commits the refreshed data,
+# then kicks off "Deploy to production" so the site picks up the new chart versions.
+#
+# Needs repository secret DATAWRAPPER_API_TOKEN.
+
+on:
+  schedule:
+    # Sunday, Monday and Tuesday at 4 p.m. Pacific Standard Time.
+    # GitHub cron is UTC, so this is 00:00 UTC Monday-Wednesday. During daylight
+    # time (mid-March to early November) it runs at 5 p.m. Pacific instead.
+    - cron: '0 0 * * 1,2,3'
+  workflow_dispatch:
+    inputs:
+      latest_gw:
+        description: 'Gameweek to update through (blank = auto-detect)'
+        required: false
+        default: ''
+      deploy:
+        description: 'Deploy the site afterward'
+        type: boolean
+        default: true
+
+concurrency:
+  group: update-charts
+  cancel-in-progress: false
+
+permissions:
+  contents: write   # push the refreshed data
+  actions: write    # start the deploy workflow
+
+jobs:
+  update:
+    name: Run notebooks
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+          cache-dependency-path: _workspace/requirements.txt
+
+      - name: Install dependencies
+        run: make install
+
+      - name: Run notebooks
+        run: make update
+        env:
+          DATAWRAPPER_API_TOKEN: ${{ secrets.DATAWRAPPER_API_TOKEN }}
+          LATEST_GW: ${{ inputs.latest_gw }}
+
+      - name: Keep executed notebooks for debugging
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: executed-notebooks
+          path: _workspace/runs/
+          if-no-files-found: ignore
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add _data/charts.json _workspace/data/output
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+          else
+            git commit -m "Update charts (automated)"
+            git push
+          fi
+
+      - name: Deploy the site
+        if: github.event_name == 'schedule' || inputs.deploy
+        run: gh workflow run deploy-prod.yml --ref main
+        env:
+          GH_TOKEN: ${{ github.token }}
