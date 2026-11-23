@@ -2,8 +2,10 @@
   "name": "page-template",
   "private": true,
   "scripts": {
+    "prebuild": "node _workspace/datawrapper-versions.mjs",
     "build": "NODE_ENV=production bake build --config",
     "git-pre-commit": "lint-staged",
+    "prestart": "node _workspace/datawrapper-versions.mjs",
     "start": "NODE_ENV=development bake serve --config"
   },
   "dependencies": {

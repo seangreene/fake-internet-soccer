@@ -38,5 +38,15 @@
       "chart_id": "4Qpyc",
       "version": 19
     }
+  },
+  "16": {
+    "standings": {
+      "chart_id": "a1old",
+      "version": 1
+    },
+    "h2h": {
+      "chart_id": "FoX4v",
+      "version": 3
+    }
   }
 }

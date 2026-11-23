@@ -72,5 +72,6 @@
 {% block extra_scripts %}
 
 {{charts|jsonScript('chartsMetadata')}}
+{{(datawrapper_versions or {})|jsonScript('datawrapperVersions')}}
 
 {% endblock %}

@@ -4,6 +4,11 @@ async function main() {
   const chartsMetadata = document.getElementById('chartsMetadata');
   const chartsMetadataParsed = JSON.parse(chartsMetadata.textContent);
 
+  // latest published versions looked up at build time by
+  // _workspace/datawrapper-versions.mjs; these win over charts.json
+  const versionsEl = document.getElementById('datawrapperVersions');
+  const latestVersions = versionsEl ? JSON.parse(versionsEl.textContent) : {};
+
   const latestSeason = Math.max(
     ...Object.keys(chartsMetadataParsed).map(Number)
   );
@@ -13,7 +18,7 @@ async function main() {
 
   function getChartInfo(s, type) {
     let chartId = chartsMetadataParsed[s][type]['chart_id'];
-    let version = chartsMetadataParsed[s][type]['version'];
+    let version = latestVersions[chartId] || chartsMetadataParsed[s][type]['version'];
     return [chartId, version];
   }
 
