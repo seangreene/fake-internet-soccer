@@ -75,12 +75,12 @@ The site is uploaded to the bucket root because `slug` in `meta.aml` is empty.
 | `_data/form.json` | The form table's chart ID and version |
 | `_workspace/seasons.json` | Fantrax league ID per season |
 | `_workspace/dw_helpers.py` | Datawrapper: token, chart copying, publishing |
-| `_workspace/fantrax_helpers.py` | Fantrax: standings requests, latest-gameweek detection |
+| `_workspace/fantrax_helpers.py` | All Fantrax requests, latest-gameweek detection |
 | `_workspace/recolor_charts.py` | `make recolor` |
 | `_workspace/archive/` | Old per-season notebooks (S12–S16) and the old color CSV, for reference only |
 
 ## Troubleshooting
 
 - **401/403 from Datawrapper:** the token in `.env` is wrong, deleted or missing a scope.
-- **Fantrax step fails or returns nothing:** Fantrax isn't an official API. The requests pretend to be its website (`"v": "185.0.1"` in `fantrax_helpers.py` and the notebooks), and that may need bumping. Fantrax could also be blocking GitHub's servers, in which case run `make update` locally.
+- **Fantrax step fails or returns nothing:** Fantrax isn't an official API. All its requests live in `_workspace/fantrax_helpers.py` and pose as its website; try bumping `FANTRAX_VERSION` there first. Fantrax could also be blocking GitHub's servers, in which case run `make update` locally.
 - **Wrong gameweek:** auto-detection counts a gameweek once Fantrax adds it to the standings. Override with `LATEST_GW`.

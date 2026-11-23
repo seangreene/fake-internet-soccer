@@ -4,13 +4,10 @@ concurrency:
   group: deploy-stage-${{ github.ref }}
   cancel-in-progress: true
 
+# Disabled: no longer runs on push. It only builds (the S3 upload below is commented
+# out), so it can still be run by hand from the Actions tab as a build check.
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - "**" # always deploy for branches
-    tags-ignore:
-      - "**" # never deploy for tags
 
 jobs:
   deploy:
