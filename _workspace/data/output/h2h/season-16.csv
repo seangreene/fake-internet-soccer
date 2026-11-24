@@ -3,7 +3,7 @@ Benford FC,Benford FC,,0,0
 Benford FC,Cheasle FC,1,1,0
 Benford FC,Mattchester United,1,2,0
 Benford FC,Newcastle UN-HINGED,1,3,0
-Benford FC,NikkiPSG FC,1,4,0
+Benford FC,NikkiPSG FC,2,4,0
 Benford FC,Schadenasty's (Rafa),1,5,0
 Benford FC,Seanhampton FC,0,6,0
 Benford FC,Thottenham Hotsluts,1,7,0
@@ -61,7 +61,7 @@ Schadenasty's (Rafa),West Thom United,0,8,5
 Schadenasty's (Rafa),ZacBurn Rovers FC,1,9,5
 Seanhampton FC,Benford FC,1,0,6
 Seanhampton FC,Cheasle FC,1,1,6
-Seanhampton FC,Mattchester United,0,2,6
+Seanhampton FC,Mattchester United,1,2,6
 Seanhampton FC,Newcastle UN-HINGED,0,3,6
 Seanhampton FC,NikkiPSG FC,0,4,6
 Seanhampton FC,Schadenasty's (Rafa),0,5,6
@@ -74,13 +74,13 @@ Thottenham Hotsluts,Cheasle FC,0,1,7
 Thottenham Hotsluts,Mattchester United,0,2,7
 Thottenham Hotsluts,Newcastle UN-HINGED,0,3,7
 Thottenham Hotsluts,NikkiPSG FC,1,4,7
-Thottenham Hotsluts,Schadenasty's (Rafa),0,5,7
+Thottenham Hotsluts,Schadenasty's (Rafa),1,5,7
 Thottenham Hotsluts,Seanhampton FC,0,6,7
 Thottenham Hotsluts,Thottenham Hotsluts,,7,7
 Thottenham Hotsluts,West Thom United,0,8,7
 Thottenham Hotsluts,ZacBurn Rovers FC,0,9,7
 West Thom United,Benford FC,1,0,8
-West Thom United,Cheasle FC,0,1,8
+West Thom United,Cheasle FC,1,1,8
 West Thom United,Mattchester United,0,2,8
 West Thom United,Newcastle UN-HINGED,0,3,8
 West Thom United,NikkiPSG FC,1,4,8
@@ -92,7 +92,7 @@ West Thom United,ZacBurn Rovers FC,1,9,8
 ZacBurn Rovers FC,Benford FC,0,0,9
 ZacBurn Rovers FC,Cheasle FC,1,1,9
 ZacBurn Rovers FC,Mattchester United,0,2,9
-ZacBurn Rovers FC,Newcastle UN-HINGED,1,3,9
+ZacBurn Rovers FC,Newcastle UN-HINGED,2,3,9
 ZacBurn Rovers FC,NikkiPSG FC,0,4,9
 ZacBurn Rovers FC,Schadenasty's (Rafa),0,5,9
 ZacBurn Rovers FC,Seanhampton FC,2,6,9
