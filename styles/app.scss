@@ -191,7 +191,8 @@ span.red-card {
     max-width: 840px;
     background: #fff;
     padding: 15px;
-    border: 5px outset #e4fa73;
+    border: 5px outset rgb(228, 250, 115, .8);
+    background-clip: padding-box; 
 
     #h2h-chart, #form-chart {
       max-width: 420px;
