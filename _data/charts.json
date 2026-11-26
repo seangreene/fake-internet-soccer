@@ -42,11 +42,11 @@
   "16": {
     "standings": {
       "chart_id": "a1old",
-      "version": 7
+      "version": 9
     },
     "h2h": {
       "chart_id": "FoX4v",
-      "version": 10
+      "version": 12
     }
   }
 }

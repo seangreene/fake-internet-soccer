@@ -7,10 +7,10 @@ name: Update charts
 
 on:
   schedule:
-    # Sunday, Monday and Tuesday at 4 p.m. Pacific Standard Time.
-    # GitHub cron is UTC, so this is 00:00 UTC Monday-Wednesday. During daylight
-    # time (mid-March to early November) it runs at 5 p.m. Pacific instead.
-    - cron: '0 0 * * 1,2,3'
+    # Sunday, Monday and Tuesday at 4:20 p.m. Pacific Standard Time.
+    # GitHub cron is UTC, so this is 00:20 UTC Monday-Wednesday. During daylight
+    # time (mid-March to early November) it runs at 5:20 p.m. Pacific instead.
+    - cron: '20 0 * * 1,2,3'
   workflow_dispatch:
     inputs:
       latest_gw:
