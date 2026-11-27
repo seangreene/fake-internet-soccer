@@ -1,6 +1,7 @@
 import { renderDatawrapper } from './components/datawrapper';
 
 async function main() {
+
   const chartsMetadata = document.getElementById('chartsMetadata');
   const chartsMetadataParsed = JSON.parse(chartsMetadata.textContent);
 
@@ -57,21 +58,31 @@ async function main() {
   let h2hChartContainer = document.getElementById('h2h-chart');
   renderDatawrapper(h2hChartContainer, h2hChartId, h2hpChartVersion);
 
-  // render form table (one chart, overwritten by the scores notebook each run)
+  // Current-season section: form table + thumpings. Each is one Datawrapper chart that
+  // the scores notebook overwrites every run (_data/form.json, _data/thumpings.json).
   const formChartContainer = document.getElementById('form-chart');
+  const thumpingsChartContainer = document.getElementById('thumpings-chart');
+
   // hide the whole section: its .chart wrapper and the spacer above it
   const formSection = formChartContainer.closest('.chart');
   const setFormVisible = (visible) => {
     formSection.hidden = !visible;
     formSection.previousElementSibling.hidden = !visible;
   };
-  const formEl = document.getElementById('formMetadata');
-  const formMeta = formEl ? JSON.parse(formEl.textContent) : null;
-  const formVersion = formMeta && (latestVersions[formMeta.chart_id] || formMeta.version);
-  if (formVersion) {
-    renderDatawrapper(formChartContainer, formMeta.chart_id, formVersion);
-  } else {
-    setFormVisible(false);
+
+  // chart ID + newest version for a single-chart metadata block, or null
+  function getSingleChart(metadataId) {
+    const el = document.getElementById(metadataId);
+    const meta = el ? JSON.parse(el.textContent) : null;
+    const version = meta && (latestVersions[meta.chart_id] || meta.version);
+    return version ? [meta.chart_id, version] : null;
   }
+
+  const formChart = getSingleChart('formMetadata');
+  const thumpingsChart = getSingleChart('thumpingsMetadata');
+
+  if (formChart) renderDatawrapper(formChartContainer, ...formChart);
+  if (thumpingsChart) renderDatawrapper(thumpingsChartContainer, ...thumpingsChart);
+  if (!formChart && !thumpingsChart) setFormVisible(false);
 }
 main().catch(console.error);

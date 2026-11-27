@@ -32,7 +32,7 @@ body {
   background-size: 100% 60px;
 }
 h1 {
-  font-family: 'Nunito Sans', Arial, sans-serif;
+  font-family: 'Nunito Sans', 'Roboto', Arial, sans-serif;
   font-weight: 1000;
   font-style: italic;
   font-size: 2rem;
@@ -194,7 +194,7 @@ span.red-card {
     border: 5px outset rgb(228, 250, 115, .8);
     background-clip: padding-box; 
 
-    #h2h-chart, #form-chart {
+    #h2h-chart, #form-chart, #thumpings-chart {
       max-width: 420px;
       margin: 0 auto;
     }

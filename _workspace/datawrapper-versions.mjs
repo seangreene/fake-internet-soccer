@@ -1,5 +1,5 @@
 // Looks up the latest published version of every Datawrapper chart listed in
-// _data/charts.json and _data/form.json and writes them to _data/datawrapper_versions.json, which
+// _data/charts.json, _data/form.json and _data/thumpings.json and writes them to _data/datawrapper_versions.json, which
 // Baker exposes to templates as `datawrapper_versions`. scripts/app.js uses
 // those versions ahead of the ones in charts.json, so the page always embeds
 // the newest published chart instead of a cached older one.
@@ -19,7 +19,8 @@ import { readFile, writeFile } from 'node:fs/promises';
 import https from 'node:https';
 
 const CHARTS_PATH = '_data/charts.json';
-const FORM_PATH = '_data/form.json';
+// single charts the notebooks overwrite each run
+const SINGLE_CHART_PATHS = ['_data/form.json', '_data/thumpings.json'];
 const OUT_PATH = '_data/datawrapper_versions.json';
 
 async function getToken() {
@@ -81,7 +82,11 @@ const ids = [
     Object.values(charts)
       .flatMap((season) => Object.values(season))
       .map((chart) => chart.chart_id)
-      .concat(JSON.parse(await readFile(FORM_PATH, 'utf8')).chart_id)
+      .concat(
+        await Promise.all(
+          SINGLE_CHART_PATHS.map(async (p) => JSON.parse(await readFile(p, 'utf8')).chart_id)
+        )
+      )
       .filter(Boolean)
   ),
 ];

@@ -56,6 +56,10 @@
       <div class="spacer"></div>
       <div class="chart">
         <div id="form-chart" class="datawrapper-embed"></div>
+
+        <div class="spacer"></div>
+
+        <div id="thumpings-chart" class="datawrapper-embed"></div>
       </div>
     </div>
   </div>
@@ -74,6 +78,7 @@
 
 {{charts|jsonScript('chartsMetadata')}}
 {{form|jsonScript('formMetadata')}}
+{{thumpings|jsonScript('thumpingsMetadata')}}
 {{(datawrapper_versions or {})|jsonScript('datawrapperVersions')}}
 
 {% endblock %}

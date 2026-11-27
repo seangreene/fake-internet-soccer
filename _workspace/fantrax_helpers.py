@@ -63,6 +63,11 @@ def get_standings(league_id, period):
     return r.json()['responses'][0]['data']
 
 
+def to_number(values):
+    """Fantrax formats numbers for display, so 1000+ arrives as "1,012.5". Strip the commas."""
+    return pd.to_numeric(pd.Series(values).astype(str).str.replace(',', '', regex=False), errors='coerce')
+
+
 def _table(data, caption):
     return next((t for t in data.get('tableList', []) if t.get('caption') == caption), None)
 
@@ -96,7 +101,7 @@ def fetch_standings(league_id, latest_gw):
             })
     df = pd.DataFrame(records)
     for col in ['rank', 'W', 'D', 'L', 'Points', 'Win%', 'WW', 'FPtsF', 'FPtsA']:
-        df[col] = pd.to_numeric(df[col], errors='coerce')
+        df[col] = to_number(df[col])
     return df, team_info
 
 
@@ -116,8 +121,8 @@ def fetch_matchups(league_id, latest_gw):
                 'gw': period,
                 'away_team': c[0]['content'],
                 'home_team': c[2]['content'],
-                'away_score': float(c[1]['content']),
-                'home_score': float(c[3]['content']),
+                'away_score': float(str(c[1]['content']).replace(',', '')),
+                'home_score': float(str(c[3]['content']).replace(',', '')),
             })
     return pd.DataFrame(records), team_info
 

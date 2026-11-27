@@ -27,6 +27,20 @@
     margin-top: 20px;
   }
 }
+
+#shoot-toggle:checked ~ .ball-trigger {
+  transform: translateX(-50%) translate3d(180px, -44vh, -260px) scale(0.35);
+}
+
+#shoot-toggle:checked ~ .ball-trigger .ball {
+  transform: rotate(720deg);
+}
+
+#shoot-toggle:checked ~ .shadow {
+  transform: translateX(-50%) translate3d(180px, -36vh, 0) scale(0.3);
+  opacity: 0.15;
+}
+    
 .fire {
   font-size: 4rem;
   @media (max-width: 600px) {

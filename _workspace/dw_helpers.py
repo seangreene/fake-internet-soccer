@@ -42,7 +42,8 @@ def check(r):
             '(or DATAWRAPPER_API_TOKEN) was rejected: it may be an old or deleted key, '
             'or it may be missing the chart:read / chart:write scopes.'
         )
-    r.raise_for_status()
+    if r.status_code >= 400:
+        raise RuntimeError(f'Datawrapper said {r.status_code} for {r.request.method} {r.url}: {r.text[:500]}')
     return r
 
 

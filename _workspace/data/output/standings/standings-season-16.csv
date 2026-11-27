@@ -59,53 +59,53 @@ W,D,L,Points,Win%,WW,FPtsF,FPtsA,Streak,team,rank,gw
 2,0,4,6,0.333,10,841.0,931.5,1 (W),NikkiPSG FC,8,6
 2,0,4,6,0.333,4,831.5,817.0,4 (L),Cheasle FC,9,6
 1,1,4,4,0.25,3,715.5,816.0,3 (Wnl),Thottenham Hotsluts,10,6
-5,0,2,15,0.714,9,,898.5,4 (W),Benford FC,1,7
+5,0,2,15,0.714,9,1026.5,898.5,4 (W),Benford FC,1,7
 5,0,2,15,0.714,2,849.5,887.0,1 (L),Schadenasty's (Rafa),2,7
-4,0,3,12,0.571,1,,912.5,1 (W),Mattchester United,3,7
-4,0,3,12,0.571,8,,989.0,1 (W),West Thom United,4,7
+4,0,3,12,0.571,1,1100.5,912.5,1 (W),Mattchester United,3,7
+4,0,3,12,0.571,8,1053.0,989.0,1 (W),West Thom United,4,7
 4,0,3,12,0.571,6,868.5,887.0,1 (L),ZacBurn Rovers FC,5,7
 3,1,3,10,0.5,5,970.0,990.0,3 (Und),Newcastle UN-HINGED,6,7
-3,0,4,9,0.429,10,,,2 (W),NikkiPSG FC,7,7
-3,0,4,9,0.429,7,894.0,,2 (L),Seanhampton FC,8,7
+3,0,4,9,0.429,10,1013.5,1064.5,2 (W),NikkiPSG FC,7,7
+3,0,4,9,0.429,7,894.0,1007.0,2 (L),Seanhampton FC,8,7
 2,0,5,6,0.286,4,945.0,969.0,5 (L),Cheasle FC,9,7
 1,1,5,4,0.214,3,830.0,946.0,4 (Wnl),Thottenham Hotsluts,10,7
-6,0,2,18,0.75,9,,,5 (W),Benford FC,1,8
+6,0,2,18,0.75,9,1190.5,1046.0,5 (W),Benford FC,1,8
 6,0,2,18,0.75,2,957.0,956.5,1 (W),Schadenasty's (Rafa),2,8
-5,0,3,15,0.625,1,,,2 (W),Mattchester United,3,8
-4,0,4,12,0.5,8,,,1 (L),West Thom United,4,8
-4,0,4,12,0.5,10,,,3 (W),NikkiPSG FC,5,8
-4,0,4,12,0.5,7,,,1 (W),Seanhampton FC,6,8
+5,0,3,15,0.625,1,1282.0,1079.5,2 (W),Mattchester United,3,8
+4,0,4,12,0.5,8,1220.0,1170.5,1 (L),West Thom United,4,8
+4,0,4,12,0.5,10,1169.0,1178.5,3 (W),NikkiPSG FC,5,8
+4,0,4,12,0.5,7,1039.5,1096.5,1 (W),Seanhampton FC,6,8
 4,0,4,12,0.5,6,938.0,994.5,2 (L),ZacBurn Rovers FC,7,8
-3,1,4,10,0.438,5,,,1 (L),Newcastle UN-HINGED,8,8
-2,0,6,6,0.25,4,,,6 (L),Cheasle FC,9,8
-1,1,6,4,0.188,3,977.5,,5 (Wnl),Thottenham Hotsluts,10,8
-6,0,3,18,0.667,1,,,3 (W),Mattchester United,1,9
-6,0,3,18,0.667,9,,,1 (L),Benford FC,2,9
-6,0,3,18,0.667,2,,,1 (L),Schadenasty's (Rafa),3,9
-5,0,4,15,0.556,8,,,1 (W),West Thom United,4,9
-5,0,4,15,0.556,10,,,4 (W),NikkiPSG FC,5,9
-4,1,4,13,0.5,5,,,1 (W),Newcastle UN-HINGED,6,9
-4,0,5,12,0.444,7,,,1 (L),Seanhampton FC,7,9
-4,0,5,12,0.444,6,,,3 (L),ZacBurn Rovers FC,8,9
-3,0,6,9,0.333,4,,,1 (W),Cheasle FC,9,9
-1,1,7,4,0.167,3,,,6 (Wnl),Thottenham Hotsluts,10,9
-7,0,3,21,0.7,9,,,1 (W),Benford FC,1,10
-6,0,4,18,0.6,1,,,1 (L),Mattchester United,2,10
-6,0,4,18,0.6,8,,,2 (W),West Thom United,3,10
-6,0,4,18,0.6,10,,,5 (W),NikkiPSG FC,4,10
-6,0,4,18,0.6,2,,,2 (L),Schadenasty's (Rafa),5,10
-5,1,4,16,0.55,5,,,2 (W),Newcastle UN-HINGED,6,10
-5,0,5,15,0.5,6,,,1 (W),ZacBurn Rovers FC,7,10
-4,0,6,12,0.4,7,,,2 (L),Seanhampton FC,8,10
-3,0,7,9,0.3,4,,,1 (L),Cheasle FC,9,10
-1,1,8,4,0.15,3,,,7 (Wnl),Thottenham Hotsluts,10,10
-8,0,3,24,0.727,9,,,2 (W),Benford FC,1,11
-7,0,4,21,0.636,8,,,3 (W),West Thom United,2,11
-6,0,5,18,0.545,1,,,2 (L),Mattchester United,3,11
-6,0,5,18,0.545,10,,,1 (L),NikkiPSG FC,4,11
-6,0,5,18,0.545,6,,,2 (W),ZacBurn Rovers FC,5,11
-6,0,5,18,0.545,2,,,3 (L),Schadenasty's (Rafa),6,11
-5,1,5,16,0.5,5,,,1 (L),Newcastle UN-HINGED,7,11
-5,0,6,15,0.455,7,,,1 (W),Seanhampton FC,8,11
-3,0,8,9,0.273,4,,,2 (L),Cheasle FC,9,11
-2,1,8,7,0.227,3,,,1 (W),Thottenham Hotsluts,10,11
+3,1,4,10,0.438,5,1084.0,1145.5,1 (L),Newcastle UN-HINGED,8,8
+2,0,6,6,0.25,4,1034.5,1114.5,6 (L),Cheasle FC,9,8
+1,1,6,4,0.188,3,977.5,1110.0,5 (Wnl),Thottenham Hotsluts,10,8
+6,0,3,18,0.667,1,1425.0,1165.5,3 (W),Mattchester United,1,9
+6,0,3,18,0.667,9,1324.0,1192.0,1 (L),Benford FC,2,9
+6,0,3,18,0.667,2,1043.0,1099.5,1 (L),Schadenasty's (Rafa),3,9
+5,0,4,15,0.556,8,1366.0,1304.0,1 (W),West Thom United,4,9
+5,0,4,15,0.556,10,1320.5,1289.5,4 (W),NikkiPSG FC,5,9
+4,1,4,13,0.5,5,1235.5,1271.0,1 (W),Newcastle UN-HINGED,6,9
+4,0,5,12,0.444,7,1165.0,1248.0,1 (L),Seanhampton FC,7,9
+4,0,5,12,0.444,6,1049.0,1146.0,3 (L),ZacBurn Rovers FC,8,9
+3,0,6,9,0.333,4,1220.0,1273.5,1 (W),Cheasle FC,9,9
+1,1,7,4,0.167,3,1136.5,1295.5,6 (Wnl),Thottenham Hotsluts,10,9
+7,0,3,21,0.7,9,1461.5,1318.0,1 (W),Benford FC,1,10
+6,0,4,18,0.6,1,1599.0,1358.5,1 (L),Mattchester United,2,10
+6,0,4,18,0.6,8,1569.0,1396.5,2 (W),West Thom United,3,10
+6,0,4,18,0.6,10,1513.5,1463.5,5 (W),NikkiPSG FC,4,10
+6,0,4,18,0.6,2,1169.0,1237.0,2 (L),Schadenasty's (Rafa),5,10
+5,1,4,16,0.55,5,1400.5,1386.0,2 (W),Newcastle UN-HINGED,6,10
+5,0,5,15,0.5,6,1185.0,1256.5,1 (W),ZacBurn Rovers FC,7,10
+4,0,6,12,0.4,7,1275.5,1384.0,2 (L),Seanhampton FC,8,10
+3,0,7,9,0.3,4,1335.0,1438.5,1 (L),Cheasle FC,9,10
+1,1,8,4,0.15,3,1229.0,1498.5,7 (Wnl),Thottenham Hotsluts,10,10
+8,0,3,24,0.727,9,1605.5,1428.5,2 (W),Benford FC,1,11
+7,0,4,21,0.636,8,1742.0,1532.0,3 (W),West Thom United,2,11
+6,0,5,18,0.545,1,1725.0,1542.5,2 (L),Mattchester United,3,11
+6,0,5,18,0.545,10,1624.0,1607.5,1 (L),NikkiPSG FC,4,11
+6,0,5,18,0.545,6,1362.0,1393.0,2 (W),ZacBurn Rovers FC,5,11
+6,0,5,18,0.545,2,1257.0,1396.5,3 (L),Schadenasty's (Rafa),6,11
+5,1,5,16,0.5,5,1537.0,1563.0,1 (L),Newcastle UN-HINGED,7,11
+5,0,6,15,0.455,7,1459.5,1510.0,1 (W),Seanhampton FC,8,11
+3,0,8,9,0.273,4,1470.5,1611.5,2 (L),Cheasle FC,9,11
+2,1,8,7,0.227,3,1388.5,1586.5,1 (W),Thottenham Hotsluts,10,11

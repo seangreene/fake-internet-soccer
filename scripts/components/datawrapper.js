@@ -1,5 +1,5 @@
 // datawrapper render function
-export let renderDatawrapper = function (el, chartId, version) {
+export let renderDatawrapper = function (el, chartId, version) {  
   let chartDataUrl = `https://datawrapper.dwcdn.net/${chartId}/${version}/embed.json`;
   const target = document.createElement('div');
   el.innerHTML = '';
@@ -17,3 +17,4 @@ export let renderDatawrapper = function (el, chartId, version) {
       });
     });
 };
+
